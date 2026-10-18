@@ -1,0 +1,516 @@
+Sofia Museichuk · Full Stack Developer|София Мусейчук · Full-stack разработчик|סופיה מוסייצ׳וק · מפתחת Full-stack
+Skip to content|Перейти к содержанию|דלגו לתוכן
+Work|Проекты|פרויקטים
+Notes|Заметки|תובנות
+About|Обо мне|עליי
+Contact|Контакты|יצירת קשר
+FULL-STACK .NET DEVELOPER|FULL-STACK РАЗРАБОТЧИК .NET|מפתחת Full-stack ב־.NET
+Tel Aviv, Israel / Open to opportunities|Тель-Авив, Израиль / Открыта к предложениям|תל אביב, ישראל / פתוחה להזדמנויות
+Better systems. Less friction.|Лучше системы. Проще работа.|מערכות טובות יותר. עבודה פשוטה יותר.
+I connect backend logic, data and interfaces — turning complex client workflows into tools that are easier to use.|Я объединяю серверную логику, данные и интерфейсы — превращаю сложные рабочие процессы клиентов в удобные инструменты.|אני מחברת בין לוגיקה בצד השרת, נתונים וממשקים — והופכת תהליכי עבודה מורכבים לכלים נוחים יותר לשימוש.
+Explore my work|Посмотреть проекты|לפרויקטים שלי
+Download CV|Скачать CV|הורדת קורות חיים
+Email|Написать|שליחת מייל
+ONE FEATURE / EVERY LAYER|ОДНА ФУНКЦИЯ / ВСЕ СЛОИ|פיצ׳ר אחד / כל השכבות
+Business logic|Бизнес-логика|לוגיקה עסקית
+Data & reliability|Данные и надёжность|נתונים ואמינות
+The human interface|Интерфейс для человека|הממשק האנושי
+years of production .NET experience|года работы с .NET в продакшене|שנות ניסיון בפיתוח .NET בסביבת ייצור
+END-TO-END FEATURE OWNERSHIP|ОТ ТРЕБОВАНИЯ ДО ГОТОВОЙ ФУНКЦИИ|אחריות על פיצ׳רים מקצה לקצה
+01 / SELECTED WORK|01 / ИЗБРАННЫЕ ПРОЕКТЫ|01 / פרויקטים נבחרים
+Systems I’ve|Системы, которые я|מערכות שעזרתי
+improved.|улучшила.|לשפר.
+Legacy modernization, production integrations and a personal .NET API.|Модернизация старых систем, интеграции в продакшене и собственный API на .NET.|מודרניזציה של מערכות ותיקות, אינטגרציות בסביבת ייצור ופרויקט API אישי ב־.NET.
+CLIENT PROJECT / INDEPENDENT DEVELOPMENT|КЛИЕНТСКИЙ ПРОЕКТ / САМОСТОЯТЕЛЬНАЯ РАЗРАБОТКА|פרויקט ללקוח / פיתוח עצמאי
+Modernizing a|Новая жизнь|מודרניזציה של
+legacy back office.|старого бэк-офиса.|מערכת Back-office ותיקה.
+I independently rebuilt a client dashboard across SQL, server-side logic, automation and UI. The goal: more responsive functionality and less manual work.|Я самостоятельно переработала клиентский дашборд: SQL, серверную логику, автоматизацию и UI. Цель — более отзывчивая система и меньше ручной работы.|שיפרתי באופן עצמאי דשבורד ללקוח: SQL, לוגיקה בצד השרת, אוטומציה וממשק משתמש. המטרה: מערכת מגיבה יותר ופחות עבודה ידנית.
+SQL modernization|Обновление SQL|מודרניזציה של SQL
+Automation|Автоматизация|אוטומציה
+Usable interfaces|Удобные интерфейсы|ממשקים נוחים
+THE CLIENT’S RESPONSE|РЕАКЦИЯ КЛИЕНТА|תגובת הלקוח
+The client wanted to buy|Клиент захотел купить|הלקוח רצה לרכוש
+the entire dashboard.|весь дашборд.|את הדשבורד כולו.
+A purchase had not been part of the original plan.|Хотя изначально покупка не планировалась.|למרות שרכישה לא הייתה חלק מהתוכנית המקורית.
+ENGINEERING CHANGE MAP|КАРТА ТЕХНИЧЕСКИХ ИЗМЕНЕНИЙ|מפת השינויים ההנדסיים
+2013 / LEGACY SQL|2013 / СТАРЫЕ ПРОЦЕДУРЫ SQL|2013 / SQL ותיק
+02 / Server logic|02 / Серверная логика|02 / לוגיקת שרת
+03 / Automation|03 / Автоматизация|03 / אוטומציה
+04 / Jobs & migrations|04 / Задачи и миграции|04 / משימות ומיגרציות
+05 / UI|05 / Интерфейс|05 / ממשק משתמש
+STARTING POINT|ИСХОДНОЕ СОСТОЯНИЕ|נקודת המוצא
+Stored procedures from 2013|Хранимые процедуры 2013 года|פרוצדורות מאוחסנות משנת 2013
+Legacy database procedures were part of the dashboard’s existing foundation.|В основе дашборда оставались старые процедуры базы данных.|פרוצדורות ותיקות במסד הנתונים היו חלק מהתשתית הקיימת של הדשבורד.
+MY CONTRIBUTION|МОЙ ВКЛАД|התרומה שלי
+Rewritten for responsiveness|Переписаны для лучшего отклика|שכתוב לשיפור זמן התגובה
+Rewrote the old stored procedures to improve how responsively the dashboard worked.|Переписала старые хранимые процедуры, чтобы улучшить отклик дашборда.|שכתבתי את הפרוצדורות המאוחסנות הישנות כדי לשפר את תגובתיות הדשבורד.
+Select a layer to explore the work. This map describes the implementation; it is not a screenshot of the client’s dashboard.|Выберите слой, чтобы узнать о работе подробнее. Это схема изменений, а не скриншот клиентского дашборда.|בחרו שכבה כדי להכיר את העבודה. המפה מתארת את המימוש ואינה צילום מסך של הדשבורד של הלקוח.
+Improved server-side logic and reorganized API calls into appropriate layers.|Улучшила серверную логику и перенесла вызовы API в подходящие слои.|שיפרתי לוגיקה בצד השרת וארגנתי קריאות API בשכבות המתאימות.
+Replaced manual changes with automatic functionality.|Заменила ручные изменения автоматическими функциями.|החלפתי שינויים ידניים בפונקציונליות אוטומטית.
+Optimized jobs and migrations.|Оптимизировала фоновые задачи и миграции.|ייעלתי משימות רקע ומיגרציות.
+Created a cleaner, easier-to-use UI.|Создала более чистый и удобный интерфейс.|יצרתי ממשק נקי ונוח יותר לשימוש.
+PERSONAL PROJECT / BACKEND|ЛИЧНЫЙ ПРОЕКТ / BACKEND|פרויקט אישי / צד שרת
+Insurance|API управления|API לניהול
+Management API|страхованием|ביטוח
+A .NET 8 API for managing customers and the lifecycle of car, health and life policies. Built around business rules, predictable errors and reliable writes.|API на .NET 8 для управления клиентами и жизненным циклом полисов автострахования, здоровья и жизни. Бизнес-правила, предсказуемые ошибки и надёжная запись данных.|API ב־.NET 8 לניהול לקוחות ומחזור החיים של פוליסות רכב, בריאות וחיים. מבוסס על כללים עסקיים, שגיאות ברורות וכתיבה אמינה של נתונים.
+Try the retry example|Попробовать повторный запрос|נסו את דוגמת הבקשה החוזרת
+REQUEST TO RECORD|ОТ ЗАПРОСА ДО ЗАПИСИ|מהבקשה לרשומה
+Validation · authentication · HTTP|Валидация · аутентификация · HTTP|אימות נתונים · אימות זהות · HTTP
+Domain & services|Домен и сервисы|דומיין ושירותים
+Policy rules · lifecycle · idempotency|Правила полисов · жизненный цикл · идемпотентность|כללי פוליסות · מחזור חיים · אידמפוטנטיות
+Persistence|Хранение данных|שמירת נתונים
+EF Core · SQL invariants · audit events|EF Core · ограничения SQL · события аудита|EF Core · אילוצי SQL · אירועי ביקורת
+Stale writes and conflicting requests get explicit errors.|Устаревшие записи и конфликтующие запросы возвращают понятные ошибки.|עדכונים מיושנים ובקשות סותרות מחזירים שגיאות מפורשות.
+Inside the engineering decisions|Подробнее о технических решениях|מאחורי ההחלטות ההנדסיות
+Safe retries|Безопасные повторы|בקשות חוזרות בטוחות
+Issue and cancel endpoints accept an idempotency key. The same key and payload replay the original result; a changed payload returns a conflict.|Эндпоинты выпуска и отмены принимают ключ идемпотентности. Тот же ключ и данные возвращают исходный результат; изменённые данные вызывают конфликт.|נקודות הקצה להנפקה ולביטול מקבלות מפתח אידמפוטנטיות. אותו מפתח ואותם נתונים מחזירים את התוצאה המקורית; נתונים שונים מחזירים שגיאת התנגשות.
+Rules at two levels|Правила на двух уровнях|כללים בשתי שכבות
+A customer can have at most one active car policy. Service checks and a filtered unique SQL index both enforce that rule.|У клиента может быть не более одного активного автомобильного полиса. Это правило защищают проверки сервисов и фильтрованный уникальный индекс SQL.|ללקוח יכולה להיות לכל היותר פוליסת רכב פעילה אחת. הכלל נאכף גם בבדיקות בשירות וגם באינדקס SQL ייחודי מסונן.
+Concurrent changes|Параллельные изменения|עדכונים במקביל
+A row-version token detects stale policy updates, returning a conflict instead of silently replacing another change.|Токен версии строки выявляет устаревшие обновления полиса: возвращается конфликт вместо незаметной перезаписи чужого изменения.|טוקן גרסת רשומה מזהה עדכונים מיושנים לפוליסה ומחזיר שגיאת התנגשות במקום לדרוס שינוי אחר ללא התרעה.
+Traceable lifecycle|Прослеживаемый жизненный цикл|מחזור חיים שניתן לעקוב אחריו
+Issuing, updating and cancelling policies create audit events. Cancellation retains the record, and cancelled policies cannot be updated.|Выпуск, обновление и отмена полисов создают события аудита. При отмене запись сохраняется, а отменённый полис нельзя изменить.|הנפקה, עדכון וביטול של פוליסות יוצרים אירועי ביקורת. ביטול שומר את הרשומה, ולא ניתן לעדכן פוליסה שבוטלה.
+JWT-protected writes · rate limiting · xUnit tests|Запись с защитой JWT · лимиты запросов · тесты xUnit|כתיבה מוגנת ב־JWT · הגבלת קצב בקשות · בדיקות xUnit
+Personal project|Личный проект|פרויקט אישי
+INTERACTIVE ENGINEERING EXAMPLE|ИНТЕРАКТИВНЫЙ ТЕХНИЧЕСКИЙ ПРИМЕР|דוגמה הנדסית אינטראקטיבית
+One request.|Один запрос.|בקשה אחת.
+One policy.|Один полис.|פוליסה אחת.
+Issue a policy, retry the same request, then reuse the key with a changed premium. Watch the result and policy count.|Создайте полис, повторите тот же запрос, затем используйте тот же ключ с другой премией. Сравните ответ и количество полисов.|הנפיקו פוליסה, חזרו על אותה בקשה, ואז השתמשו באותו מפתח עם פרמיה שונה. עקבו אחר התוצאה ומספר הפוליסות.
+Illustrative simulation of the project’s idempotency rule. Uses sample data; no live API calls.|Иллюстрация правила идемпотентности из проекта. Используются примерные данные, без вызовов настоящего API.|הדמיה של כלל האידמפוטנטיות בפרויקט. משתמשת בנתונים לדוגמה, ללא קריאות API אמיתיות.
+Premium|Страховая премия|פרמיה
+(sample value)|(пример)|(ערך לדוגמה)
+1. Send request|1. Отправить запрос|1. שליחת בקשה
+2. Retry same request|2. Повторить тот же запрос|2. חזרה על אותה בקשה
+3. Try a conflicting request|3. Отправить конфликтующий запрос|3. ניסיון עם בקשה סותרת
+Policies created|Создано полисов|פוליסות שנוצרו
+Reset example|Сбросить пример|איפוס הדוגמה
+REQUEST|ЗАПРОС|בקשה
+RESULT|РЕЗУЛЬТАТ|תוצאה
+Ready|Готово к запросу|מוכן לבקשה
+Send the first request to create a sample policy.|Отправьте первый запрос, чтобы создать тестовый полис.|שלחו את הבקשה הראשונה ליצירת פוליסה לדוגמה.
+An identical retry should return the original policy.|Идентичный повтор должен вернуть исходный полис.|בקשה חוזרת זהה אמורה להחזיר את הפוליסה המקורית.
+This interactive example requires JavaScript. The rule: the same key and payload return the original policy; the same key with a different payload returns a conflict.|Для интерактивного примера нужен JavaScript. Правило: тот же ключ и данные возвращают исходный полис; тот же ключ с другими данными вызывает конфликт.|הדוגמה האינטראקטיבית דורשת JavaScript. הכלל: אותו מפתח ואותם נתונים מחזירים את הפוליסה המקורית; אותו מפתח עם נתונים שונים מחזיר שגיאת התנגשות.
+PRODUCTION / CMS & FRONTEND|ПРОДАКШЕН / CMS И FRONTEND|סביבת ייצור / CMS וצד לקוח
+Bilingual web platforms|Двуязычные веб-платформы|פלטפורמות אינטרנט דו־לשוניות
+Content, forms and user flows in Hebrew and English.|Контент, формы и пользовательские сценарии на иврите и английском.|תוכן, טפסים ותהליכי משתמש בעברית ובאנגלית.
+The work|Задача|העבודה
+At eWave Online, I built and maintained features on production Umbraco and ASP.NET platforms: personal areas, purchases, training enrollments, certifications, document downloads and search.|В eWave Online я разрабатывала и поддерживала функции на платформах Umbraco и ASP.NET: личные кабинеты, покупки, запись на обучение, сертификаты, скачивание документов и поиск.|ב־eWave Online פיתחתי ותחזקתי פיצ׳רים בפלטפורמות Umbraco ו־ASP.NET בסביבת ייצור: אזורים אישיים, רכישות, הרשמה להכשרות, תעודות, הורדת מסמכים וחיפוש.
+My contribution|Мой вклад|התרומה שלי
+Connected C# service logic to Razor templates and dynamic JavaScript interfaces. Customized Umbraco Forms, templates and block-list components, with responsive layouts and Hebrew/English content.|Связывала сервисную логику C# с шаблонами Razor и динамическими интерфейсами JavaScript. Настраивала Umbraco Forms, шаблоны и компоненты Block List, адаптивную вёрстку и контент на иврите и английском.|חיברתי לוגיקת שירותים ב־C# לתבניות Razor ולממשקי JavaScript דינמיים. התאמת Umbraco Forms, תבניות ורכיבי Block List, עם פריסות רספונסיביות ותוכן בעברית ובאנגלית.
+PRODUCTION / BACKEND & INTEGRATIONS|ПРОДАКШЕН / BACKEND И ИНТЕГРАЦИИ|סביבת ייצור / צד שרת ואינטגרציות
+Connecting systems & data|Связь систем и данных|חיבור בין מערכות ונתונים
+External APIs, SQL business logic and legacy code.|Внешние API, бизнес-логика SQL и старый код.|ממשקי API חיצוניים, לוגיקה עסקית ב־SQL וקוד ותיק.
+Integrated Tranzila payments, Azure AD identity, Pulseem email/SMS, and training and CRM APIs. Handled authentication, data transformation and error mapping across ASP.NET Core and .NET Framework services.|Интегрировала платежи Tranzila, идентификацию Azure AD, email/SMS Pulseem и API обучения и CRM. Реализовывала аутентификацию, преобразование данных и обработку ошибок в сервисах ASP.NET Core и .NET Framework.|שילבתי תשלומי Tranzila, ניהול זהויות ב־Azure AD, דיוור ו־SMS של Pulseem וממשקי API להכשרות ול־CRM. טיפלתי באימות, המרת נתונים ומיפוי שגיאות בשירותי ASP.NET Core ו־.NET Framework.
+Implemented service-layer logic and SQL Server queries using EF Core and EF6, including stored-procedure integrations. Investigated data-integrity issues in legacy transaction and bulk-import flows.|Реализовывала сервисную логику и запросы SQL Server с EF Core и EF6, включая интеграции хранимых процедур. Исследовала проблемы целостности данных в старых транзакционных процессах и массовом импорте.|מימשתי לוגיקה בשכבת השירות ושאילתות SQL Server באמצעות EF Core ו־EF6, כולל שילוב פרוצדורות מאוחסנות. חקרתי בעיות שלמות נתונים בתהליכי טרנזקציות ותיקים ובייבוא מרוכז.
+02 / ENGINEERING NOTES|02 / ТЕХНИЧЕСКИЕ ЗАМЕТКИ|02 / תובנות הנדסיות
+Behind the|За техническими|מאחורי
+decisions.|решениями.|ההחלטות.
+A closer look at reliability and the client’s experience.|Подробнее о надёжности и удобстве для клиента.|מבט מקרוב על אמינות ועל חוויית הלקוח.
+INSURANCE API / RELIABILITY|СТРАХОВОЙ API / НАДЁЖНОСТЬ|API לביטוח / אמינות
+Making retries predictable|Предсказуемые повторные запросы|בקשות חוזרות עם תוצאה צפויה
+Why a repeated request needs a stable result.|Почему повторный запрос должен возвращать стабильный результат.|למה בקשה חוזרת צריכה להחזיר תוצאה עקבית.
+A client can lose a response even when the server has completed a write. Retrying the request should not create another policy.|Клиент может не получить ответ, даже если сервер уже сохранил данные. Повторный запрос не должен создавать ещё один полис.|לקוח עלול לא לקבל תשובה גם כשהשרת כבר השלים כתיבה. חזרה על הבקשה לא אמורה ליצור פוליסה נוספת.
+In my insurance API, issue and cancel operations accept an idempotency key. A matching key and payload replay the original result; a changed payload returns a conflict.|В моём страховом API операции выпуска и отмены принимают ключ идемпотентности. Совпадающие ключ и данные возвращают исходный результат; изменённые данные вызывают конфликт.|ב־API הביטוח שלי, פעולות הנפקה וביטול מקבלות מפתח אידמפוטנטיות. מפתח ונתונים תואמים מחזירים את התוצאה המקורית; נתונים שונים מחזירים שגיאת התנגשות.
+The implementation stores the operation, key, payload fingerprint and response entity ID. A unique constraint on operation and key prevents ambiguous reuse.|Реализация сохраняет операцию, ключ, отпечаток данных и ID сущности ответа. Уникальное ограничение на операцию и ключ предотвращает неоднозначное повторное использование.|המימוש שומר את הפעולה, המפתח, טביעת הנתונים ומזהה ישות התשובה. אילוץ ייחודי על הפעולה והמפתח מונע שימוש חוזר לא חד־משמעי.
+Explore the example|Посмотреть пример|לבדיקת הדוגמה
+CLIENT DASHBOARD / USABILITY|КЛИЕНТСКИЙ ДАШБОРД / УДОБСТВО|דשבורד ללקוח / נוחות שימוש
+Modernization across layers|Обновление на всех уровнях|מודרניזציה בכל השכבות
+Why the interface was only part of the work.|Почему интерфейс был лишь частью работы.|למה הממשק היה רק חלק מהעבודה.
+A clearer interface was one part of the dashboard. Behind it, I rewrote stored procedures dating back to 2013, improved server-side logic and reorganized API calls into appropriate layers.|Понятный интерфейс — лишь часть дашборда. За ним я переписала хранимые процедуры 2013 года, улучшила серверную логику и перенесла вызовы API в подходящие слои.|ממשק ברור יותר היה רק חלק מהדשבורד. מאחוריו שכתבתי פרוצדורות מאוחסנות משנת 2013, שיפרתי לוגיקה בצד השרת וארגנתי קריאות API בשכבות המתאימות.
+I also replaced manual changes with automatic functionality and optimized jobs and migrations. The purpose was a more responsive tool that was easier for clients to work with.|Также заменила ручные изменения автоматическими функциями и оптимизировала задачи и миграции. Цель — более отзывчивый инструмент, с которым клиентам проще работать.|החלפתי גם שינויים ידניים בפונקציונליות אוטומטית וייעלתי משימות ומיגרציות. המטרה הייתה כלי מגיב יותר ונוח יותר לעבודה עבור הלקוחות.
+The client wanted to buy the entire dashboard, even though a purchase had not been in the original plan. That response made this project especially meaningful to me.|Клиент захотел купить весь дашборд, хотя изначально покупка не планировалась. Эта реакция сделала проект особенно значимым для меня.|הלקוח רצה לרכוש את הדשבורד כולו, אף שרכישה לא הייתה בתוכנית המקורית. התגובה הזו הפכה את הפרויקט למשמעותי במיוחד עבורי.
+03 / ABOUT|03 / ОБО МНЕ|03 / עליי
+An engineer.|Разработчик.|מפתחת.
+A human perspective.|С человеческим взглядом.|עם נקודת מבט אנושית.
+Art after dark.|Искусство после заката.|אמנות אחרי החשכה.
+Clarity in the code.|Ясность в коде.|בהירות בקוד.
+I’m Sofia, a full-stack developer in Tel Aviv. I care about what happens between a business requirement and the person using the result.|Я София, full-stack разработчик из Тель-Авива. Мне важно всё, что происходит между бизнес-требованием и человеком, который пользуется результатом.|אני סופיה, מפתחת Full-stack בתל אביב. חשוב לי מה שקורה בין הדרישה העסקית לבין האדם שמשתמש בתוצאה.
+At eWave Online, I owned features across public-sector, financial-services and enterprise web projects — from requirements through deployment. My work connects backend services, SQL data and the interface, in both modern .NET and established codebases.|В eWave Online я отвечала за функции в веб-проектах государственного, финансового и корпоративного сектора — от требований до развёртывания. Связывала серверные сервисы, данные SQL и интерфейс в современной .NET и старых кодовых базах.|ב־eWave Online הייתי אחראית על פיצ׳רים בפרויקטי אינטרנט למגזר הציבורי, הפיננסי והארגוני — מדרישות ועד העלאה לסביבת ייצור. העבודה שלי מחברת שירותי שרת, נתוני SQL וממשק, גם ב־.NET מודרני וגם בבסיסי קוד ותיקים.
+Before software, I served in international cooperation, coordinating visits, preparing briefings and translating across languages. Clear communication has been a consistent part of my work.|До разработки я служила в сфере международного сотрудничества: координировала визиты, готовила брифинги и переводила. Понятная коммуникация всегда была частью моей работы.|לפני הפיתוח שירתתי בתחום שיתוף הפעולה הבינלאומי: תיאמתי ביקורים, הכנתי תדריכים ותרגמתי בין שפות. תקשורת ברורה תמיד הייתה חלק מהעבודה שלי.
+I’m looking for a product-driven team where pragmatic engineering and usable software matter. Outside code, I’m drawn to visual art, languages and discovering new places.|Ищу продуктовую команду, где ценят практичную разработку и удобное ПО. Вне кода меня привлекают визуальное искусство, языки и новые места.|אני מחפשת צוות מוצר שמעריך פיתוח מעשי ותוכנה נוחה לשימוש. מחוץ לקוד אני נמשכת לאמנות חזותית, לשפות ולגילוי מקומות חדשים.
+LET’S TALK IN|ЯЗЫКИ ОБЩЕНИЯ|אפשר לדבר איתי ב־
+English & Hebrew · Fluent|Английский и иврит · Свободно|אנגלית ועברית · שוטפת
+Ukrainian & Russian · Native|Украинский и русский · Родные|אוקראינית ורוסית · שפות אם
+German · Conversational|Немецкий · Разговорный|גרמנית · רמת שיחה
+Full Stack Developer|Full-stack разработчик|מפתחת Full-stack
+Software Development Program|Программа разработки ПО|מסלול פיתוח תוכנה
+Sela College · Full-stack focus|Sela College · Full-stack разработка|מכללת סלע · התמחות ב־Full-stack
+International Cooperation|Международное сотрудничество|שיתוף פעולה בינלאומי
+IDF · Noncommissioned officer|ЦАХАЛ · Унтер-офицер|צה״ל · מש״קית
+HOW I BUILD|МОЙ ПОДХОД|איך אני מפתחת
+Own the feature.|Отвечать за функцию.|אחריות על הפיצ׳ר.
+Keep the context.|Держать контекст.|שמירה על ההקשר.
+I work across requirements, service logic, data and the interface, keeping the client’s task in view throughout implementation.|Работаю с требованиями, сервисной логикой, данными и интерфейсом, не теряя из виду задачу клиента на протяжении всей реализации.|אני עובדת על הדרישות, לוגיקת השירותים, הנתונים והממשק, ושומרת את המשימה של הלקוח במרכז לאורך המימוש.
+AI coding tools are part of my workflow: I use project rules, structured plans and focused agents for refactoring and investigation, then review and verify their output. The engineering decisions stay with me.|Инструменты ИИ — часть моей работы: использую правила проекта, структурированные планы и специализированных агентов для рефакторинга и исследования, затем проверяю результат. Технические решения остаются за мной.|כלי AI לפיתוח הם חלק מתהליך העבודה שלי: אני משתמשת בכללי פרויקט, תוכניות מסודרות וסוכנים ממוקדים לריפקטורינג ולחקירה, ואז סוקרת ומאמתת את התוצרים. ההחלטות ההנדסיות נשארות אצלי.
+04 / TOOLKIT|04 / ИНСТРУМЕНТЫ|04 / כלים וטכנולוגיות
+What I work with.|Мои инструменты.|הטכנולוגיות שלי.
+Backend|Серверная разработка|צד שרת
+REST · LINQ · Dependency injection|REST · LINQ · Внедрение зависимостей|REST · LINQ · הזרקת תלויות
+Async/await · Hosted services|Async/await · Фоновые сервисы|Async/await · שירותי רקע
+Data|Данные|נתונים
+Stored procedures · Indexing|Хранимые процедуры · Индексы|פרוצדורות מאוחסנות · אינדקסים
+Query optimization|Оптимизация запросов|אופטימיזציית שאילתות
+Frontend & CMS|Интерфейсы и CMS|צד לקוח ו־CMS
+Delivery|Развёртывание|העלאה לסביבת ייצור
+AI-assisted development & review|Разработка и проверка с ИИ|פיתוח וסקירה בעזרת AI
+05 / WHAT’S NEXT|05 / ЧТО ДАЛЬШЕ|05 / השלב הבא
+Good work starts|Хорошая работа|עבודה טובה מתחילה
+with a|начинается с|ב־
+conversation.|разговора.|שיחה.
+Looking for a developer who can own a feature from the backend to the interface?|Ищете разработчика, который отвечает за функцию от сервера до интерфейса?|מחפשים מפתחת שיכולה לקחת אחריות על פיצ׳ר מהשרת ועד הממשק?
+I’d love to hear about your team.|Буду рада узнать о вашей команде.|אשמח לשמוע על הצוות שלכם.
+Copy email|Скопировать email|העתקת כתובת מייל
+Copied|Скопировано|הועתק
+Email address copied.|Адрес email скопирован.|כתובת המייל הועתקה.
+Copy isn’t available here. Select the email address, or click it to open your email app.|Копирование здесь недоступно. Выделите адрес или нажмите на него, чтобы открыть почтовое приложение.|ההעתקה אינה זמינה כאן. סמנו את הכתובת או לחצו עליה לפתיחת אפליקציית המייל.
+Server logic & API calls|Серверная логика и вызовы API|לוגיקת שרת וקריאות API
+The existing server-side implementation and placement of API calls needed improvement.|Серверная реализация и расположение вызовов API нуждались в улучшении.|המימוש בצד השרת ומיקום קריאות ה־API דרשו שיפור.
+Clearer responsibilities|Чёткое разделение ответственности|תחומי אחריות ברורים יותר
+Improved server-side logic and moved calls and API interactions into appropriate layers, following best practices.|Улучшила серверную логику и перенесла вызовы и взаимодействия с API в подходящие слои, следуя лучшим практикам.|שיפרתי לוגיקה בצד השרת והעברתי קריאות ואינטראקציות API לשכבות המתאימות, בהתאם לשיטות עבודה מומלצות.
+Manual changes|Ручные изменения|שינויים ידניים
+Some changes required manual intervention in the existing workflow.|Некоторые изменения в существующем процессе требовали ручного вмешательства.|חלק מהשינויים בתהליך העבודה הקיים דרשו התערבות ידנית.
+Automatic functionality|Автоматические функции|פונקציונליות אוטומטית
+Added automatic functionality to replace manual changes and reduce the hands-on work needed.|Добавила автоматические функции вместо ручных изменений, чтобы уменьшить объём ручной работы.|הוספתי פונקציונליות אוטומטית להחלפת שינויים ידניים ולצמצום העבודה הידנית הנדרשת.
+Existing jobs & migrations|Существующие задачи и миграции|משימות ומיגרציות קיימות
+Background jobs and migration flows were part of the system being modernized.|Фоновые задачи и миграции были частью обновляемой системы.|משימות רקע ותהליכי מיגרציה היו חלק מהמערכת שעברה מודרניזציה.
+Optimized execution|Оптимизированное выполнение|ביצוע יעיל יותר
+Optimized jobs and migrations as part of the wider dashboard improvements.|Оптимизировала задачи и миграции в рамках общего обновления дашборда.|ייעלתי משימות ומיגרציות כחלק מהשיפורים הכוללים בדשבורד.
+An interface to improve|Интерфейс, требующий улучшения|ממשק שדרש שיפור
+The client’s workflow needed a clearer, easier-to-use interface.|Рабочий процесс клиента нуждался в более понятном и удобном интерфейсе.|תהליך העבודה של הלקוח דרש ממשק ברור ונוח יותר לשימוש.
+A cleaner client experience|Более удобная работа клиента|חוויית לקוח נקייה יותר
+Created a clean UI with functionality that was easier to understand and more comfortable to use.|Создала чистый интерфейс с более понятной и удобной функциональностью.|יצרתי ממשק נקי עם פונקציונליות שקל יותר להבין ונוח יותר להשתמש בה.
+201 · Created|201 · Создано|201 · נוצרה
+One policy was created. Retry the same request to return this policy again.|Создан один полис. Повторите тот же запрос, чтобы получить его снова.|נוצרה פוליסה אחת. חזרו על אותה בקשה כדי לקבל שוב את אותה פוליסה.
+Original result replayed|Возвращён исходный результат|התוצאה המקורית הוחזרה
+The same policy was returned. The policy count stays at one.|Возвращён тот же полис. Количество полисов остаётся равным одному.|אותה פוליסה הוחזרה. מספר הפוליסות נשאר אחד.
+409 · Conflict|409 · Конфликт|409 · התנגשות
+The premium changed while the key stayed the same. The request was rejected; no extra policy was created.|Премия изменилась, а ключ остался прежним. Запрос отклонён; новый полис не создан.|הפרמיה השתנתה אך המפתח נשאר זהה. הבקשה נדחתה ולא נוצרה פוליסה נוספת.
+400 · Invalid request|400 · Некорректный запрос|400 · בקשה לא תקינה
+Enter a whole-number premium between 1 and 1,000,000.|Введите целое значение премии от 1 до 1 000 000.|הזינו פרמיה כמספר שלם בין 1 ל־1,000,000.
+Use a whole-number premium between 1 and 1,000,000.|Используйте целое значение премии от 1 до 1 000 000.|יש להשתמש בפרמיה כמספר שלם בין 1 ל־1,000,000.
+This key already belongs to a different request.|Этот ключ уже относится к другому запросу.|המפתח הזה כבר משויך לבקשה אחרת.
+Main navigation|Основная навигация|ניווט ראשי
+Sofia Museichuk, home|София Мусейчук, главная|סופיה מוסייצ׳וק, דף הבית
+My full-stack approach|Мой подход к full-stack разработке|הגישה שלי לפיתוח Full-stack
+Project focus|Направления проекта|מוקדי הפרויקט
+Explore dashboard improvements|Посмотреть улучшения дашборда|עיון בשיפורי הדשבורד
+Project technologies|Технологии проекта|טכנולוגיות הפרויקט
+Insurance API architecture|Архитектура страхового API|ארכיטקטורת API הביטוח
+Example request body|Тело тестового запроса|גוף הבקשה לדוגמה
+Example response body|Тело тестового ответа|גוף התשובה לדוגמה
+Copy Sofia’s email address|Скопировать email Софии|העתקת כתובת המייל של סופיה
+Back to top|Наверх|חזרה לראש העמוד
+Language|Язык|שפה
+Sofia Museichuk is a full-stack .NET developer in Tel Aviv. End-to-end feature ownership, client workflow dashboards, C#, SQL, JavaScript and Umbraco.|София Мусейчук — full-stack .NET разработчик из Тель-Авива. Разработка функций от начала до конца, клиентские дашборды, C#, SQL, JavaScript и Umbraco.|סופיה מוסייצ׳וק היא מפתחת Full-stack ב־.NET בתל אביב. אחריות על פיצ׳רים מקצה לקצה, דשבורדים ללקוחות, C#, SQL, JavaScript ו־Umbraco.
+From business logic to usable interfaces. Explore Sofia’s client workflow dashboard, production .NET work and personal insurance API.|От бизнес-логики до удобных интерфейсов. Клиентский дашборд Софии, проекты на .NET и личный страховой API.|מלוגיקה עסקית לממשקים נוחים. הדשבורד של סופיה ללקוחות, עבודה ב־.NET בסביבת ייצור ו־API אישי לניהול ביטוח.
+Tel Aviv, Israel / Open to roles & project work|Тель-Авив, Израиль / Открыта к вакансиям и проектам|תל אביב, ישראל / פתוחה לתפקידים ולעבודת פרויקטים
+I’m looking for my next full-stack .NET role and am open to focused project work on existing systems.|Ищу следующую full-stack .NET позицию и открыта к отдельным проектам по существующим системам.|אני מחפשת את תפקיד ה־Full-stack הבא שלי ב־.NET ופתוחה גם לעבודת פרויקטים ממוקדת על מערכות קיימות.
+01 / FIX|01 / ИСПРАВИТЬ|01 / לתקן
+.NET & Umbraco fixes|Исправления .NET и Umbraco|תיקונים ב־.NET וב־Umbraco
+Investigate a specific bug, update the relevant code and verify the affected workflow.|Исследовать конкретный баг, обновить нужный код и проверить затронутый сценарий.|חקירת תקלה ממוקדת, עדכון הקוד הרלוונטי ובדיקת תהליך העבודה המושפע.
+02 / IMPROVE|02 / УЛУЧШИТЬ|02 / לשפר
+SQL performance|Производительность SQL|ביצועי SQL
+Review a slow query or stored procedure, identify the cause and compare the result after changes.|Разобрать медленный запрос или хранимую процедуру, найти причину и сравнить результат после изменений.|סקירת שאילתה או פרוצדורה מאוחסנת איטית, זיהוי הסיבה והשוואת התוצאה לאחר השינויים.
+03 / AUTOMATE|03 / АВТОМАТИЗИРОВАТЬ|03 / להפוך לאוטומטי
+Manual workflows|Ручные процессы|תהליכי עבודה ידניים
+Turn a repeated manual task into an automated process or a clearer back-office interface.|Превратить повторяющуюся ручную задачу в автоматизированный процесс или более понятный интерфейс бэк-офиса.|הפיכת משימה ידנית חוזרת לתהליך אוטומטי או לממשק Back-office ברור יותר.
+For project enquiries, tell me what happens now, what should happen instead and which technologies are involved. We can agree on scope, timing and cost after reviewing the task.|Для обсуждения проекта расскажите, что происходит сейчас, как должно быть и какие технологии используются. После рассмотрения задачи согласуем объём, сроки и стоимость.|לפניות לגבי פרויקט, ספרו מה קורה עכשיו, מה אמור לקרות במקום ובאילו טכנולוגיות משתמשים. לאחר בדיקת המשימה נוכל להסכים על היקף, לוח זמנים ועלות.
+Project services|Проектные услуги|שירותי פרויקטים
+View repository|Посмотреть репозиторий|לצפייה במאגר הקוד
+Engineering decisions|Технические решения|החלטות הנדסיות
+Tests & contracts|Тесты и контракты|בדיקות וחוזי API
+xUnit endpoint tests cover conflicting idempotency keys, replay behavior, validation, JWT permissions and rate limits.|Тесты эндпоинтов на xUnit проверяют конфликтующие ключи идемпотентности, повторные запросы, валидацию, права JWT и ограничения частоты запросов.|בדיקות נקודות קצה ב־xUnit בודקות מפתחות אידמפוטנטיות סותרים, בקשות חוזרות, אימות נתונים, הרשאות JWT והגבלת קצב בקשות.
+Read implementation|Посмотреть реализацию|לקריאת המימוש
+Read endpoint tests|Посмотреть тесты API|לקריאת בדיקות ה־API
+View the retry example|Посмотреть пример повторного запроса|לצפייה בדוגמת הבקשה החוזרת
+Retry safely.|Безопасные повторы.|בקשות חוזרות בטוחות.
+Avoid duplicate policies.|Без дублирования полисов.|בלי פוליסות כפולות.
+If a response gets lost, a client may send the same request again. This example returns the existing policy instead of creating a duplicate.|Если ответ потерялся, клиент может отправить тот же запрос снова. В этом примере система возвращает существующий полис, не создавая дубликат.|אם תשובה אובדת, לקוח עלול לשלוח שוב את אותה בקשה. בדוגמה הזו המערכת מחזירה את הפוליסה הקיימת במקום ליצור כפילות.
+1. Create a policy|1. Создать полис|1. יצירת פוליסה
+2. Try again|2. Повторить|2. ניסיון חוזר
+3. Change the premium|3. Изменить премию|3. שינוי הפרמיה
+Backend decisions, visible in code.|Backend-решения, которые видны в коде.|החלטות בצד השרת שאפשר לראות בקוד.
+Business rules, safe retries and explicit conflicts in my insurance API.|Бизнес-правила, безопасные повторные запросы и явные конфликты в моём страховом API.|כללים עסקיים, בקשות חוזרות בטוחות והתנגשויות מפורשות ב־API הביטוח שלי.
+Explore the API case|Посмотреть кейс API|לפרויקט ה־API
+Database work with a client-facing purpose.|Работа с БД ради удобства клиента.|עבודה על מסד הנתונים למען חוויית הלקוח.
+Rewriting stored procedures from 2013 was part of making the client dashboard more responsive.|Переписывание процедур 2013 года помогало сделать клиентский дашборд более отзывчивым.|שכתוב פרוצדורות משנת 2013 היה חלק מהעבודה לשיפור תגובתיות הדשבורד ללקוח.
+Explore the SQL work|Посмотреть работу с SQL|לעבודה על SQL
+Interfaces people can actually use.|Интерфейсы, которыми удобно пользоваться.|ממשקים שבאמת נוח להשתמש בהם.
+Client dashboards, bilingual platforms, Razor templates and dynamic JavaScript interfaces.|Клиентские дашборды, двуязычные платформы, шаблоны Razor и динамические интерфейсы JavaScript.|דשבורדים ללקוחות, פלטפורמות דו־לשוניות, תבניות Razor וממשקי JavaScript דינמיים.
+Explore interface work|Посмотреть работу с UI|לעבודה על ממשקים
+WHY IT MATTERS|ПОЧЕМУ ЭТО ВАЖНО|למה זה חשוב
+Responsiveness starts below the UI. Database work is part of the user experience.|Отзывчивость начинается глубже интерфейса. Работа с базой данных — часть пользовательского опыта.|תגובתיות מתחילה מתחת לממשק. עבודה על מסד הנתונים היא חלק מחוויית המשתמש.
+Clear responsibility boundaries make server logic easier to follow and maintain.|Чёткие границы ответственности делают серверную логику понятнее и проще в поддержке.|גבולות אחריות ברורים הופכים את לוגיקת השרת למובנת יותר וקלה יותר לתחזוקה.
+Automating a repeated change reduces the need for repeated manual intervention.|Автоматизация повторяющегося изменения уменьшает необходимость ручного вмешательства.|אוטומציה של שינוי חוזר מצמצמת את הצורך בהתערבות ידנית חוזרת.
+Background work and migrations belong in the modernization effort alongside interactive features.|Фоновые задачи и миграции тоже нуждаются в модернизации, как и пользовательские функции.|גם משימות רקע ומיגרציות הן חלק מהמודרניזציה, לצד הפיצ׳רים האינטראקטיביים.
+An interface should help clients understand and complete their everyday work.|Интерфейс должен помогать клиентам понимать и выполнять повседневные задачи.|ממשק צריך לעזור ללקוחות להבין ולהשלים את העבודה היומיומית שלהם.
+Ctrl + S is a love language.|Ctrl + S — язык любви.|Ctrl + S היא שפת אהבה.
+
+Backend — reliable operations and clear business rules.|Backend — надёжные операции и понятные бизнес-правила.|Backend — פעולות אמינות וכללים עסקיים ברורים.
+SQL — responsive data access and consistent records.|SQL — быстрый доступ к данным и их целостность.|SQL — גישה מהירה לנתונים ושמירה על עקביות.
+UI — clearer screens and easier everyday tasks.|UI — понятные экраны и удобные повседневные действия.|UI — מסכים ברורים ופעולות יומיומיות נוחות יותר.
+Technical details|Технические подробности|פרטים טכניים
+WHAT THIS MEANS|ЧТО ЭТО ДАЁТ|מה זה נותן
+A repeated request returns the same policy. Conflicting changes are flagged, and policy actions remain traceable.|Повторный запрос возвращает тот же полис. Система сообщает о конфликтующих изменениях и сохраняет историю действий с полисом.|בקשה חוזרת מחזירה את אותה פוליסה. המערכת מציפה שינויים סותרים ושומרת תיעוד של הפעולות בפוליסה.
+
+Portfolio guide|Проводник по портфолио|מדריך לתיק העבודות
+Explore with me|Посмотри со мной|בואו לסייר איתי
+SOFIA / PORTFOLIO GUIDE|СОФИЯ / ПРОВОДНИК|סופיה / מדריך לתיק העבודות
+Minimize|Свернуть|מזעור
+Sofia’s cyberpunk avatar with AR glasses and a friendly drone|Киберпанк-аватар Софии с AR-очками и дружелюбным дроном|דמות הסייברפאנק של סופיה עם משקפי AR ורחפן ידידותי
+Where shall we start?|С чего начнём?|מאיפה מתחילים?
+I’m Sofia’s portfolio guide. Pick a route, or take a short tour of the work.|Я проводник по портфолио Софии. Выбери маршрут или начни короткую экскурсию по её работе.|אני המדריכה לתיק העבודות של סופיה. בחרו מסלול או התחילו סיור קצר בעבודות שלה.
+Ready when you are.|Готова, когда ты готов.|מתחילים כשנוח לכם.
+Take the short tour|Короткая экскурсия|סיור קצר
+Show me the projects|Посмотреть проекты|הצגת הפרויקטים
+Explore the skills|Изучить навыки|סיור בכישורים
+Contact Sofia|Связаться с Софией|יצירת קשר עם סופיה
+Previous|Назад|הקודם
+Next|Далее|הבא
+Choose another route|Выбрать другой маршрут|בחירת מסלול אחר
+Explore the dashboard|Изучить дашборд|סקירת הדשבורד
+A dashboard worth buying.|Дашборд, который захотели купить.|דשבורד שהלקוח רצה לקנות.
+I rebuilt SQL, server logic, automation and UI. The client wanted to buy the entire dashboard, although that was not originally planned.|Я переработала SQL, серверную логику, автоматизацию и интерфейс. Клиент захотел купить весь дашборд, хотя изначально это не планировалось.|שיפרתי את ה-SQL, לוגיקת השרת, האוטומציה והממשק. הלקוח רצה לקנות את כל הדשבורד, אף שזה לא היה בתכנון המקורי.
+Legacy code, new possibilities.|Старый код — новые возможности.|קוד ותיק, אפשרויות חדשות.
+Reliable operations, explained.|Как обеспечить надёжные операции.|איך בונים פעולות אמינות.
+My insurance API handles repeated requests and conflicting changes explicitly. Open the implementation, tests or interactive example to explore the decisions.|Мой страховой API обрабатывает повторные запросы и сообщает о конфликтующих изменениях. Посмотри реализацию, тесты или интерактивный пример, чтобы понять принятые решения.|ה-API שלי לביטוח מטפל בבקשות חוזרות ובשינויים סותרים באופן מפורש. אפשר לעיין במימוש, בבדיקות או בדוגמה האינטראקטיבית כדי להבין את ההחלטות.
+One policy. Even after a second click.|Один полис. Даже после второго клика.|פוליסה אחת. גם אחרי לחיצה שנייה.
+Explore the API decisions|Изучить решения в API|סקירת החלטות ה-API
+The tools behind the work.|Инструменты, которые я использую.|הכלים שמאחורי העבודה.
+C#, ASP.NET Core, SQL and JavaScript connect the business rules, data and interface. The skill map at the top links each layer to a project.|C#, ASP.NET Core, SQL и JavaScript связывают бизнес-правила, данные и интерфейс. Карта навыков в начале страницы ведёт от каждого слоя к конкретному проекту.|C#, ASP.NET Core, SQL ו-JavaScript מחברים בין הכללים העסקיים, הנתונים והממשק. מפת הכישורים בראש העמוד מקשרת כל שכבה לפרויקט.
+Full stack. Fully curious.|Full stack. И любопытство ко всему.|Full stack. סקרנות בלי גבולות.
+Explore the skill map|Открыть карту навыков|פתיחת מפת הכישורים
+The person behind the code.|Человек за кодом.|האדם שמאחורי הקוד.
+I bring production .NET experience and a human perspective to complex workflows. Outside code, there is room for art and curiosity.|В работе со сложными процессами я опираюсь на опыт разработки .NET в продакшене и внимание к людям. За пределами кода есть место искусству и любопытству.|אני מביאה ניסיון בפיתוח .NET למערכות פעילות ונקודת מבט אנושית לתהליכים מורכבים. מעבר לקוד, יש מקום לאמנות ולסקרנות.
+Humans are part of the system.|Люди — тоже часть системы.|גם אנשים הם חלק מהמערכת.
+Read about Sofia|Прочитать о Софии|קריאה על סופיה
+Let’s build something useful.|Создадим что-то полезное.|בואו נבנה משהו שימושי.
+Looking for a full-stack developer or help improving an existing system? You can download my CV, find me on LinkedIn or contact me by email.|Ищешь full-stack разработчика или помощь с улучшением существующей системы? Можно скачать моё резюме, найти меня в LinkedIn или написать по электронной почте.|מחפשים מפתחת Full Stack או עזרה בשיפור מערכת קיימת? אפשר להוריד את קורות החיים שלי, למצוא אותי ב-LinkedIn או לפנות אליי באימייל.
+Your next click could start a conversation.|Следующий клик может стать началом разговора.|הלחיצה הבאה יכולה להתחיל שיחה.
+View contact options|Посмотреть контакты|הצגת אפשרויות יצירת קשר
+
+Hi, I’m Sofia. Let me show you around.|Привет, я София. Давай покажу, над чем я работала.|היי, אני סופיה. בואו אראה לכם על מה עבדתי.
+Meet Sofia|Познакомимся|היכרות עם סופיה
+Ask my drone for a tour|Попросить дрона провести экскурсию|בקשו מהרחפן סיור
+Ask the drone|Спросить дрона|שאלו את הרחפן
+DRONE / PORTFOLIO GUIDE|ДРОН / ПРОВОДНИК|רחפן / מדריך לתיק העבודות
+Pause motion|Остановить анимацию|עצירת התנועה
+Resume motion|Включить анимацию|הפעלת התנועה
+Friendly cyberpunk drone|Дружелюбный киберпанк-дрон|רחפן סייברפאנק ידידותי
+Sofia’s cyberpunk avatar waving hello|Киберпанк-аватар Софии приветствует посетителя|דמות הסייברפאנק של סופיה מנופפת לשלום
+Sofia’s cyberpunk avatar in a relaxed pose with a tablet|Киберпанк-аватар Софии в спокойной позе с планшетом|דמות הסייברפאנק של סופיה בתנוחה נינוחה עם טאבלט
+Ask my drone about me|Спроси дрона обо мне|שאלו את הרחפן עליי
+DRONE / AI CHAT|ДРОН / AI-ЧАТ|רחפן / צ׳אט AI
+Ask about Sofia|Спроси о Софии|שאלו על סופיה
+I’m her AI portfolio assistant. Curious about her work? Ask away.|Я AI-помощник в портфолио Софии. Хочешь узнать о её работе? Спрашивай.|אני עוזר ה-AI בפורטפוליו של סופיה. רוצים לדעת על העבודה שלה? שאלו אותי.
+Chat messages|Сообщения чата|הודעות הצ׳אט
+Her strongest skills|Сильные стороны|היכולות הבולטות שלה
+The dashboard story|История дэшборда|הסיפור של הדשבורד
+Explain the API|Объясни API|הסבר על ה-API
+What are Sofia’s strongest skills?|Какие у Софии самые сильные навыки?|מהן היכולות הבולטות ביותר של סופיה?
+Tell me about the client dashboard.|Расскажи о дэшборде для клиента.|ספר לי על הדשבורד ללקוח.
+Explain her insurance API in simple terms.|Объясни её страховой API простыми словами.|הסבר לי במילים פשוטות על ה-API שלה לביטוח.
+Your question|Твой вопрос|השאלה שלכם
+Ask about her experience or projects…|Спроси об опыте или проектах…|שאלו על הניסיון או הפרויקטים שלה…
+Send|Отправить|שליחה
+Checking chat connection…|Проверяю подключение чата…|בודק את החיבור לצ׳אט…
+AI answers can be imperfect. Confirm details with Sofia.|AI может ошибаться. Уточняй детали у Софии.|תשובות AI עשויות להיות לא מדויקות. כדאי לאמת פרטים עם סופיה.
+Projects|Проекты|פרויקטים
+Clear chat|Очистить чат|ניקוי הצ׳אט
+Ask me about Sofia’s work.|Спрашивай о работе Софии.|שאלו אותי על העבודה של סופיה.
+AI chat is not connected yet. You can still explore the projects or contact Sofia.|AI-чат пока не подключён. Можно посмотреть проекты или связаться с Софией.|צ׳אט ה-AI עדיין אינו מחובר. אפשר לעיין בפרויקטים או ליצור קשר עם סופיה.
+A little too much drone traffic. Please try again in a minute.|Дрон получил слишком много вопросов. Попробуй через минуту.|קצת יותר מדי תנועה לרחפן. נסו שוב בעוד דקה.
+The drone could not get an answer. Please try again.|Дрон не смог получить ответ. Попробуй ещё раз.|הרחפן לא הצליח לקבל תשובה. נסו שוב.
+Thinking…|Думаю…|חושב…
+Ask a follow-up question.|Можешь задать следующий вопрос.|אפשר לשאול שאלת המשך.
+Choose a topic. I’ll explain Sofia’s work in plain language.|Выбери тему. Я объясню работу Софии простыми словами.|בחרו נושא. אסביר על העבודה של סופיה במילים פשוטות.
+Explore this topic|Подробнее об этой теме|מידע נוסף על הנושא
+Let the drone explain|Пусть дрон объяснит|תנו לרחפן להסביר
+Two projects. Different challenges.|Два проекта. Разные задачи.|שני פרויקטים. אתגרים שונים.
+Explore a client dashboard rebuilt across the stack, or a personal API focused on reliable operations.|Посмотри дэшборд клиента, обновлённый на всех уровнях, или личный API с акцентом на надёжность.|גלו דשבורד ללקוח ששופר בכל שכבות המערכת, או API אישי שמתמקד בפעולות אמינות.
+Sofia independently improved SQL, server logic, automation and UI. The result was a dashboard the client wanted to buy, although buying it was not originally planned.|София самостоятельно улучшила SQL, серверную логику, автоматизацию и интерфейс. Клиент захотел купить получившийся дэшборд, хотя изначально это не планировалось.|סופיה שיפרה באופן עצמאי SQL, לוגיקה בצד השרת, אוטומציה וממשק. הלקוח רצה לקנות את הדשבורד, אף שהרכישה לא הייתה בתכנון המקורי.
+What was difficult?|Что было сложно?|מה היה מאתגר?
+Several layers. One workflow.|Несколько уровней. Один рабочий процесс.|כמה שכבות. תהליך עבודה אחד.
+Stored procedures dated back to 2013. Server logic, API calls, manual changes, jobs, migrations and the interface all needed attention. Sofia worked across these layers herself.|Хранимые процедуры были ещё из 2013 года. Серверная логика, вызовы API, ручные изменения, задания, миграции и интерфейс требовали доработки. София сама работала со всеми этими уровнями.|הפרוצדורות השמורות היו משנת 2013. לוגיקת השרת, קריאות API, שינויים ידניים, משימות, מיגרציות והממשק דרשו שיפור. סופיה עבדה בעצמה על כל השכבות האלה.
+What did Sofia change?|Что изменила София?|מה סופיה שינתה?
+From manual changes to automation.|От ручных изменений к автоматизации.|משינויים ידניים לאוטומציה.
+She rewrote stored procedures, improved server-side logic, reorganized API calls, automated manual changes, optimized jobs and migrations, and made the UI cleaner and easier to use.|Она переписала хранимые процедуры, улучшила серверную логику, упорядочила вызовы API, автоматизировала ручные изменения, оптимизировала задания и миграции, сделала интерфейс чище и удобнее.|היא כתבה מחדש פרוצדורות שמורות, שיפרה את לוגיקת השרת, ארגנה קריאות API, הפכה שינויים ידניים לאוטומטיים, שיפרה משימות ומיגרציות ויצרה ממשק ברור ונוח יותר.
+Why did the client want to buy it?|Почему клиент захотел купить его?|למה הלקוח רצה לקנות אותו?
+The client saw enough value to want ownership.|Клиент увидел ценность и захотел купить дэшборд.|הלקוח ראה ערך ורצה לקנות את הדשבורד.
+The client wanted to buy the entire dashboard, despite that not being part of the original plan. Sofia has no verified purchase outcome or measured performance figures to share.|Клиент захотел купить весь дэшборд, хотя это не входило в первоначальный план. У Софии нет подтверждения завершённой покупки или измеренных показателей производительности.|הלקוח רצה לקנות את הדשבורד כולו, אף שזה לא היה חלק מהתכנון המקורי. לסופיה אין אישור לרכישה שהושלמה או נתוני ביצועים מדודים לפרסום.
+The insurance API demonstrates how Sofia handles repeated requests, conflicting changes and clear business rules. Choose a situation to see why it matters.|Страховой API показывает, как София обрабатывает повторные запросы, конфликты изменений и бизнес-правила. Выбери ситуацию, чтобы понять, зачем это нужно.|ה-API לביטוח מראה איך סופיה מטפלת בבקשות חוזרות, בשינויים מתנגשים ובכללים עסקיים. בחרו מצב כדי להבין למה זה חשוב.
+What if I click twice?|Что если нажать дважды?|מה קורה אם לוחצים פעמיים?
+A retry should not create a duplicate.|Повтор не должен создавать дубликат.|ניסיון חוזר לא אמור ליצור כפילות.
+If the same request is sent again with the same key and information, the API returns the existing result. Reusing that key with different information produces a conflict.|Если повторно отправить запрос с тем же ключом и данными, API вернёт уже полученный результат. Тот же ключ с другими данными вызовет конфликт.|אם אותה בקשה נשלחת שוב עם אותו מפתח ואותם נתונים, ה-API מחזיר את התוצאה הקיימת. שימוש באותו מפתח עם נתונים שונים יוצר התנגשות.
+What if two people edit at once?|Что если двое редактируют одновременно?|מה קורה כששני אנשים עורכים במקביל?
+Conflicting changes should be visible.|Конфликт изменений должен быть заметен.|שינויים מתנגשים צריכים להיות גלויים.
+A version check detects when someone else has already changed a record. The API reports the conflict instead of silently overwriting the newer information.|Проверка версии определяет, что кто-то уже изменил запись. API сообщает о конфликте, чтобы новые данные не были незаметно перезаписаны.|בדיקת גרסה מזהה שמישהו כבר שינה את הרשומה. ה-API מדווח על ההתנגשות כדי שהמידע החדש לא יידרס בלי להתריע.
+Try the interactive example|Попробовать интерактивный пример|נסו את הדוגמה האינטראקטיבית
+C#, ASP.NET Core, SQL and JavaScript connect business rules, data and the interface. Pick a layer to see how Sofia uses it.|C#, ASP.NET Core, SQL и JavaScript связывают бизнес-правила, данные и интерфейс. Выбери уровень, чтобы узнать, как София его использует.|C#, ASP.NET Core, SQL ו-JavaScript מחברים כללים עסקיים, נתונים וממשק. בחרו שכבה כדי לראות איך סופיה משתמשת בה.
+C# and ASP.NET Core power business rules, validation and API operations. The insurance project shows safe retries and explicit handling of conflicting changes.|C# и ASP.NET Core отвечают за бизнес-правила, проверку данных и операции API. Страховой проект показывает безопасные повторы и явную обработку конфликтов изменений.|C# ו-ASP.NET Core מפעילים כללים עסקיים, אימות נתונים ופעולות API. פרויקט הביטוח מדגים ניסיונות חוזרים בטוחים וטיפול מפורש בשינויים מתנגשים.
+SQL that supports the workflow.|SQL, который помогает работе.|SQL שתומך בתהליך העבודה.
+Sofia rewrote legacy stored procedures and optimized jobs and migrations in the client dashboard. Her API also uses SQL constraints and version checks to protect consistent records.|София переписала старые хранимые процедуры, оптимизировала задания и миграции в дэшборде клиента. Её API также использует ограничения SQL и проверку версий для согласованности записей.|סופיה כתבה מחדש פרוצדורות שמורות ישנות ושיפרה משימות ומיגרציות בדשבורד ללקוח. ה-API שלה משתמש גם באילוצי SQL ובבדיקות גרסה לשמירה על עקביות הנתונים.
+Clearer screens. Easier everyday tasks.|Понятные экраны. Удобная ежедневная работа.|מסכים ברורים. משימות יומיומיות קלות יותר.
+JavaScript, Razor and Umbraco connect the interface to production systems. Sofia improved the dashboard UI and worked with Hebrew and English interfaces.|JavaScript, Razor и Umbraco связывают интерфейс с рабочими системами. София улучшила UI дэшборда и работала с интерфейсами на иврите и английском.|JavaScript, Razor ו-Umbraco מחברים את הממשק למערכות פעילות. סופיה שיפרה את ממשק הדשבורד ועבדה עם ממשקים בעברית ובאנגלית.
+Read about production work|Подробнее о работе в продакшене|קראו על עבודה במערכות פעילות
+Sofia is a full-stack developer with production .NET experience. She connects business logic, data and usable interfaces, with room for art and curiosity outside code.|София — full-stack разработчик с опытом работы с .NET в продакшене. Она связывает бизнес-логику, данные и удобные интерфейсы, а вне кода находит место искусству и любопытству.|סופיה היא מפתחת Full Stack עם ניסיון ב-.NET במערכות פעילות. היא מחברת לוגיקה עסקית, נתונים וממשקים נוחים, ומחוץ לקוד משאירה מקום לאמנות ולסקרנות.
+Looking for a full-stack developer or help improving an existing system? Download Sofia’s CV, find her on LinkedIn or contact her by email.|Ищешь full-stack разработчика или помощь с улучшением системы? Скачай CV Софии, найди её в LinkedIn или напиши на почту.|מחפשים מפתחת Full Stack או עזרה בשיפור מערכת קיימת? הורידו את קורות החיים של סופיה, מצאו אותה ב-LinkedIn או כתבו לה בדוא״ל.
+Full-stack .NET developer.|Full-stack .NET разработчик.|מפתחת Full Stack ב-.NET.
+I turn complex workflows into clear, useful tools — from SQL and APIs to the interface.|Превращаю сложные рабочие процессы в понятные и полезные инструменты — от SQL и API до интерфейса.|אני הופכת תהליכי עבודה מורכבים לכלים ברורים ושימושיים — מ-SQL ו-API ועד לממשק.
+Explanation depth|Глубина объяснения|רמת הפירוט
+Quick overview|Кратко|סקירה קצרה
+Technical decisions|Технические решения|החלטות טכניות
+Start with the outcome. Open technical details whenever you want.|Начни с результата. Технические подробности можно открыть в любой момент.|התחילו מהתוצאה. אפשר לפתוח את הפרטים הטכניים בכל רגע.
+Technical decisions are open below each project.|Технические решения открыты под каждым проектом.|ההחלטות הטכניות פתוחות מתחת לכל פרויקט.
+MY CONTRIBUTION / END TO END|МОЙ ВКЛАД / ОТ НАЧАЛА ДО КОНЦА|התרומה שלי / מקצה לקצה
+The problem|Проблема|הבעיה
+Legacy procedures from 2013, manual changes and a workflow that needed a clearer interface.|Старые процедуры из 2013 года, ручные изменения и рабочий процесс, которому требовался более понятный интерфейс.|פרוצדורות ישנות משנת 2013, שינויים ידניים ותהליך עבודה שהיה זקוק לממשק ברור יותר.
+What I owned|За что я отвечала|תחומי האחריות שלי
+I independently rewrote SQL, improved server logic and API calls, automated changes, optimized jobs and migrations, and redesigned the UI.|Я самостоятельно переписала SQL, улучшила серверную логику и вызовы API, автоматизировала изменения, оптимизировала задания и миграции, переработала UI.|כתבתי מחדש SQL באופן עצמאי, שיפרתי את לוגיקת השרת וקריאות ה-API, הפכתי שינויים לאוטומטיים, שיפרתי משימות ומיגרציות ועיצבתי מחדש את הממשק.
+The client’s response|Реакция клиента|תגובת הלקוח
+The client wanted to buy the entire dashboard. That had not been part of the original plan.|Клиент захотел купить весь дэшборд. Это не входило в первоначальный план.|הלקוח רצה לקנות את הדשבורד כולו. זה לא היה חלק מהתכנון המקורי.
+A SMALL ENGINEERING CHALLENGE|НЕБОЛЬШАЯ ИНЖЕНЕРНАЯ ЗАДАЧА|אתגר הנדסי קטן
+You click “Save” twice. What should happen?|Ты нажимаешь «Сохранить» дважды. Что должно произойти?|לחצתם על ״שמירה״ פעמיים. מה אמור לקרות?
+The first request succeeded, but its response was lost. You retry with the same key and the same information.|Первый запрос выполнен, но ответ потерялся. Ты повторяешь запрос с тем же ключом и теми же данными.|הבקשה הראשונה הצליחה, אבל התשובה אבדה. אתם מנסים שוב עם אותו מפתח ואותם נתונים.
+Choose the expected result|Выбери ожидаемый результат|בחרו את התוצאה הצפויה
+Create another policy|Создать ещё один полис|ליצור פוליסה נוספת
+Return the existing policy|Вернуть существующий полис|להחזיר את הפוליסה הקיימת
+Reject every retry|Отклонять любой повтор|לדחות כל ניסיון חוזר
+Choose an answer, then see the behavior in action.|Выбери ответ, затем проверь поведение на практике.|בחרו תשובה ואז ראו את ההתנהגות בפעולה.
+Run this scenario|Запустить сценарий|הפעילו את התרחיש
+Illustrative simulation using sample data. No live API calls.|Демонстрационная симуляция с тестовыми данными. Без вызовов реального API.|סימולציה להמחשה עם נתוני דוגמה. ללא קריאות ל-API אמיתי.
+Exactly. The same key and information return the original result. One policy, even after a retry.|Верно. Тот же ключ и данные возвращают исходный результат. Даже после повтора полис остаётся один.|בדיוק. אותו מפתח ואותם נתונים מחזירים את התוצאה המקורית. פוליסה אחת, גם אחרי ניסיון חוזר.
+That would create a duplicate. The same key and information should return the original result.|Так появился бы дубликат. Тот же ключ и данные должны вернуть исходный результат.|כך תיווצר כפילות. אותו מפתח ואותם נתונים צריכים להחזיר את התוצאה המקורית.
+A retry can be legitimate after a lost response. Return the original result; report a conflict if the information changes.|Повтор оправдан, если ответ потерялся. Нужно вернуть исходный результат, а при изменении данных сообщить о конфликте.|ניסיון חוזר יכול להיות מוצדק כשהתשובה אבדה. יש להחזיר את התוצאה המקורית, ולדווח על התנגשות אם הנתונים השתנו.
+Open the drone guide|Открыть дрона-проводника|פתיחת הרחפן המדריך
+Follow a request through the system|Проследить путь запроса через систему|עקבו אחרי בקשה דרך המערכת
+Interface|Интерфейс|ממשק
+Business rules|Бизнес-правила|כללים עסקיים
+Database|База данных|מסד נתונים
+A clear interface connects to rules and reliable data.|Понятный интерфейс связан с правилами и надёжными данными.|ממשק ברור מתחבר לכללים ולנתונים אמינים.
+From manual work to clearer workflows|От ручной работы к понятным процессам|מעבודה ידנית לתהליכים ברורים יותר
+Compare the workflow|Сравнить рабочий процесс|השוו את תהליך העבודה
+Before|До|לפני
+After|После|אחרי
+An explanatory map of the improvements, not a reconstruction of the original screens.|Схема объясняет изменения и не воспроизводит исходные экраны.|התרשים מסביר את השיפורים ואינו שחזור של המסכים המקוריים.
+Optimized jobs & migrations|Оптимизированные задания и миграции|משימות ומיגרציות משופרות
+Watch the request travel|Посмотри, как проходит запрос|ראו איך הבקשה מתקדמת
+Request|Запрос|בקשה
+Validation|Проверка данных|אימות נתונים
+Key check|Проверка ключа|בדיקת מפתח
+Policy|Полис|פוליסה
+Response|Ответ|תשובה
+Create a policy, retry or change the premium to follow the result.|Создай полис, повтори запрос или измени взнос, чтобы проследить результат.|צרו פוליסה, נסו שוב או שנו את הפרמיה כדי לעקוב אחרי התוצאה.
+Activate Sofia’s AR glasses|Активировать AR-очки Софии|הפעלת משקפי ה-AR של סופיה
+The API validates the request, applies business rules and passes a consistent operation to the database.|API проверяет запрос, применяет бизнес-правила и передаёт согласованную операцию в базу данных.|ה-API מאמת את הבקשה, מחיל כללים עסקיים ומעביר פעולה עקבית למסד הנתונים.
+The database protects records with constraints and version checks. SQL work also supports responsive client workflows.|База данных защищает записи ограничениями и проверкой версий. Работа с SQL также помогает сделать процессы клиента отзывчивее.|מסד הנתונים מגן על רשומות באמצעות אילוצים ובדיקות גרסה. עבודה על SQL תומכת גם בתהליכי עבודה מגיבים יותר ללקוח.
+The interface makes the workflow understandable. API calls connect user actions to the server and data.|Интерфейс делает рабочий процесс понятным. Вызовы API связывают действия пользователя с сервером и данными.|הממשק הופך את תהליך העבודה לברור. קריאות API מחברות פעולות משתמש לשרת ולנתונים.
+A user action travels from the interface through API checks and business rules to the database.|Действие пользователя проходит от интерфейса через проверки API и бизнес-правила к базе данных.|פעולת משתמש עוברת מהממשק דרך בדיקות API וכללים עסקיים אל מסד הנתונים.
+Automatic changes, optimized background work and a clearer interface reduce the need for manual intervention.|Автоматические изменения, оптимизированная фоновая работа и понятный интерфейс уменьшают необходимость ручного вмешательства.|שינויים אוטומטיים, עבודה ברקע משופרת וממשק ברור יותר מצמצמים את הצורך בהתערבות ידנית.
+A new request passes the checks, creates one policy and returns the result.|Новый запрос проходит проверки, создаёт один полис и возвращает результат.|בקשה חדשה עוברת את הבדיקות, יוצרת פוליסה אחת ומחזירה את התוצאה.
+The same key and information reuse the existing result. No second policy is created.|Тот же ключ и данные возвращают существующий результат. Второй полис не создаётся.|אותו מפתח ואותם נתונים מחזירים את התוצאה הקיימת. לא נוצרת פוליסה שנייה.
+The key was reused with different information. A conflict is returned before another policy is created.|Ключ использован повторно с другими данными. Возвращается конфликт, дополнительный полис не создаётся.|המפתח שימש שוב עם נתונים שונים. מוחזרת התנגשות לפני יצירת פוליסה נוספת.
+The input is invalid. The request stops at validation and returns an error.|Данные некорректны. Запрос останавливается на проверке и возвращает ошибку.|הקלט אינו תקין. הבקשה נעצרת באימות ומחזירה שגיאה.
+Some technical details are open. Explore what interests you.|Часть технических подробностей открыта. Изучи то, что тебе интересно.|חלק מהפרטים הטכניים פתוחים. גלו את מה שמעניין אתכם.
+Hide drone|Скрыть дрона|הסתרת הרחפן
+Ask the drone about the skills|Спросить дрона о навыках|שאלו את הרחפן על היכולות
+Ask the drone about the dashboard|Спросить дрона о дэшборде|שאלו את הרחפן על הדשבורד
+Ask the drone about the API|Спросить дрона об API|שאלו את הרחפן על ה-API
+Ask the drone about the projects|Спросить дрона о проектах|שאלו את הרחפן על הפרויקטים
+Ask the drone about Sofia|Спросить дрона о Софии|שאלו את הרחפן על סופיה
+Ask the drone about contact options|Спросить дрона о контактах|שאלו את הרחפן על דרכי יצירת קשר
+Read this section|Читать этот раздел|קראו את החלק הזה
+Ask the drone about this section|Спросить дрона об этом разделе|שאלו את הרחפן על החלק הזה
+
+Client dashboard|Клиентский дэшборд|לוח בקרה ללקוחות
+Insurance API|API страхования|API לביטוח
+Skills|Навыки|מיומנויות
+About Sofia|О Софии|על סופיה
+Topics|Темы|נושאים
+This section|Этот раздел|החלק הזה
+Back|Назад|חזרה
+All topics|Все темы|כל הנושאים
+Close|Закрыть|סגירה
+Close guide|Закрыть окно проводника|סגירת חלון המדריך
+Guide settings|Настройки проводника|הגדרות המדריך
+What else would you like to know?|Что ещё хочешь узнать?|מה עוד תרצו לדעת?
+
+I turn complex systems|Превращаю сложные системы|הופכת מערכות מורכבות
+into|в|לכלים
+useful tools.|удобные инструменты.|שימושיים.
+Full-stack development. From SQL to the screen.|Full-stack разработка. От SQL до интерфейса.|פיתוח Full-stack. מ-SQL ועד לממשק.
+C#, .NET, SQL and JavaScript. I modernize existing systems, automate repeated work and make client workflows easier to understand.|C#, .NET, SQL и JavaScript. Модернизирую существующие системы, автоматизирую повторяющуюся работу и делаю процессы понятнее для клиентов.|C#, .NET, SQL ו-JavaScript. משפרת מערכות קיימות, הופכת עבודה חוזרת לאוטומטית ומפשטת תהליכים עבור לקוחות.
+See my approach|Посмотреть мой подход|לראות את הגישה שלי
+Contact me|Связаться|יצירת קשר
+Choose a problem. See what I changed and why.|Выбери проблему. Посмотри, что я изменила и почему.|בחרו בעיה. ראו מה שיניתי ולמה.
+Slow data access|Медленный доступ к данным|גישה איטית לנתונים
+Scattered logic|Разрозненная логика|לוגיקה מפוזרת
+Background work|Фоновые процессы|תהליכי רקע
+Confusing screens|Непонятные экраны|מסכים לא ברורים
+Layers affected by this change|Слои системы, затронутые изменением|שכבות המערכת המושפעות מהשינוי
+API & business rules|API и бизнес-правила|API וכללים עסקיים
+WHY I CHOSE THIS APPROACH|ПОЧЕМУ Я ВЫБРАЛА ЭТОТ ПОДХОД|למה בחרתי בגישה הזאת
+Keep responsibilities clear|Разделить ответственность|להפריד תחומי אחריות
+I reorganized API interactions and improved server-side logic so each layer had a clearer responsibility.|Я реорганизовала взаимодействия с API и улучшила серверную логику, чтобы у каждого слоя была понятная ответственность.|ארגנתי מחדש את האינטראקציות עם ה-API ושיפרתי את לוגיקת השרת כדי שלכל שכבה תהיה אחריות ברורה יותר.
+Improve the whole workflow|Улучшить весь процесс|לשפר את התהליך כולו
+I worked on stored procedures, jobs and migrations alongside the interface. A clearer screen still depends on the work behind it.|Вместе с интерфейсом я улучшала хранимые процедуры, задачи и миграции. Удобный экран зависит и от того, что происходит за ним.|עבדתי על פרוצדורות, משימות ומיגרציות לצד הממשק. מסך ברור תלוי גם בתהליכים שמאחוריו.
+Make repeated work automatic|Автоматизировать повторяющуюся работу|להפוך עבודה חוזרת לאוטומטית
+I replaced manual changes with automatic functionality. The aim was to make everyday client work more comfortable and reduce the need for repeated intervention.|Я заменила ручные изменения автоматической функциональностью. Цель — сделать ежедневную работу клиентов удобнее и сократить необходимость повторного вмешательства.|החלפתי שינויים ידניים בפונקציונליות אוטומטית כדי להקל על עבודת הלקוחות ולצמצם התערבות חוזרת.
+What changed?|Что изменилось?|מה השתנה?
+Why does it matter?|Почему это важно?|למה זה חשוב?
+Show the technical part|Показать техническую часть|להציג את החלק הטכני
+Legacy data access|Устаревшая работа с данными|גישה ישנה לנתונים
+Sofia’s avatar smiling at the client’s response|Аватар Софии улыбается реакции клиента|הדמות של סופיה מחייכת לתגובת הלקוח
+
+My approach|Мой подход|הגישה שלי
+Explore|Разделы|ניווט
+Connect|Связь|קישורים
+Footer navigation|Навигация внизу сайта|ניווט בתחתית האתר
+Complex systems. Clearer workflows.|Сложные системы. Понятные процессы.|מערכות מורכבות. תהליכים ברורים יותר.
+The code outlived several generations of developers. In places, it took revenge.|Код пережил несколько поколений разработчиков. Местами отомстил.|הקוד שרד כמה דורות של מפתחים. פה ושם הוא נקם.
+Let’s go deeper. Almost nobody reads this far.|Идём глубже. Там уже почти никто не читает.|נכנסים עמוק יותר. כאן כבר כמעט אף אחד לא קורא.
+Select a layer to explore my work.|Выбери слой, чтобы узнать о моей работе.|בחרו שכבה כדי להכיר את העבודה שלי.
+
+Full Stack .NET Developer|Full Stack .NET разработчик|מפתחת Full Stack .NET
+Professional summary|Профессиональный профиль|פרופיל מקצועי
+About 2 years of commercial experience|Около 2 лет коммерческого опыта|כשנתיים של ניסיון מסחרי
+Seeking a Full Stack .NET role|Ищу позицию Full Stack .NET|מחפשת תפקיד Full Stack .NET
+Commercial project · Independently developed across SQL, backend, automation and UI.|Коммерческий проект · Самостоятельная разработка: SQL, backend, автоматизация и UI.|פרויקט מסחרי · פיתוח עצמאי ב-SQL, backend, אוטומציה וממשק.
+How I checked the changes|Как я проверяла изменения|איך בדקתי את השינויים
+I used both manual checks and automated testing when validating the dashboard changes.|Изменения дэшборда я проверяла вручную и с помощью автоматических тестов.|בדקתי את השינויים בדשבורד ידנית ובאמצעות בדיקות אוטומטיות.
+Explanatory reconstruction, not the original client interface. The source code is no longer available to me, so this case presents my contribution without proprietary code or measured performance claims.|Поясняющая реконструкция, а не исходный интерфейс клиента. У меня больше нет доступа к коду проекта, поэтому кейс показывает мой вклад без закрытого кода и неподтверждённых показателей производительности.|המחשה של העבודה, ולא ממשק הלקוח המקורי. אין לי עוד גישה לקוד הפרויקט, ולכן התיאור מציג את התרומה שלי ללא קוד חסוי או מדדי ביצועים שלא אומתו.
+Personal project · Backend implementation, business rules and API tests.|Личный проект · Реализация backend, бизнес-правила и тесты API.|פרויקט אישי · מימוש backend, כללים עסקיים ובדיקות API.
+See the code behind a safe retry|Код безопасного повторного запроса|הקוד שמאחורי בקשה חוזרת בטוחה
+Before creating another policy, the service checks for the existing operation and key. It validates the request fingerprint, then returns the original entity.|Прежде чем создать ещё один полис, сервис проверяет существующую операцию и ключ. Он сверяет отпечаток запроса и возвращает исходную запись.|לפני יצירת פוליסה נוספת, השירות בודק אם הפעולה והמפתח כבר קיימים. הוא מאמת את טביעת הבקשה ומחזיר את הרשומה המקורית.
+PolicyService.cs code excerpt|Фрагмент кода PolicyService.cs|קטע קוד מתוך PolicyService.cs
+Read the complete service|Открыть полный код сервиса|לצפות בקוד השירות המלא
+Excerpt from PolicyService.cs. The full service also handles conflicting payloads and concurrent inserts.|Фрагмент из PolicyService.cs. Полный сервис также обрабатывает изменение данных запроса и одновременные вставки.|קטע מתוך PolicyService.cs. השירות המלא מטפל גם בתוכן בקשה סותר ובהוספות מקבילות.
+Commercial work · My implementation within production projects.|Коммерческая работа · Моя реализация в проектах, работающих в production.|עבודה מסחרית · המימוש שלי בפרויקטים בסביבת production.
+
+COMMERCIAL / FULL STACK|КОММЕРЧЕСКИЙ ПРОЕКТ / FULL STACK|פרויקט מסחרי / FULL STACK
+Corporate website & client dashboard|Корпоративный сайт и клиентский дэшборд|אתר ארגוני ודשבורד ללקוח
+Search, personal accounts, training and bilingual interfaces.|Поиск, личный кабинет, обучение и двуязычный интерфейс.|חיפוש, אזור אישי, הדרכות וממשקים דו-לשוניים.
+Commercial work at eWave Online · Client name withheld.|Коммерческая работа в eWave Online · Клиент не указан.|עבודה מסחרית ב-eWave Online · שם הלקוח אינו מוצג.
+Website features I worked on|Функции сайта, над которыми я работала|פונקציות באתר שעבדתי עליהן
+Standards search and filtering.|Поиск стандартов и фильтрация.|חיפוש תקנים וסינון.
+Registration and personal accounts.|Регистрация и личный кабинет.|הרשמה ואזור אישי.
+Training catalogue.|Каталог обучения.|קטלוג הדרכות.
+Hebrew and English interfaces, including RTL layouts.|Интерфейсы на иврите и английском, включая RTL.|ממשקים בעברית ובאנגלית, כולל פריסות RTL.
+Across the stack|Работа по всем слоям|עבודה בכל שכבות המערכת
+I worked with Umbraco 13, ASP.NET Core, C#, SQL Server and JavaScript/jQuery across the website’s backend and interface.|Я работала с Umbraco 13, ASP.NET Core, C#, SQL Server и JavaScript/jQuery в backend и интерфейсе сайта.|עבדתי עם Umbraco 13, ASP.NET Core, C#, SQL Server ו-JavaScript/jQuery בצד השרת ובממשק האתר.
+The same client’s dashboard is the modernization case above: legacy SQL procedures, improved server logic, automation, jobs, migrations and a clearer UI.|Дэшборд этого же клиента представлен в кейсе модернизации выше: старые SQL-процедуры, улучшение серверной логики, автоматизация, задачи, миграции и более понятный UI.|הדשבורד של אותו לקוח מופיע בתיאור המודרניזציה למעלה: פרוצדורות SQL ישנות, שיפור לוגיקת השרת, אוטומציה, משימות, מיגרציות וממשק ברור יותר.
+Explore the dashboard modernization|Посмотреть модернизацию дэшборда|לראות את מודרניזציית הדשבורד
+client back office.|клиентский back office.|מערכת ניהול ללקוח.
+
+Tel Aviv, Israel / Open to Full Stack .NET roles|Тель-Авив, Израиль / Ищу позицию Full Stack .NET|תל אביב, ישראל / מחפשת תפקיד Full Stack .NET
+I modernize existing systems, automate repeated work and make client workflows easier to understand.|Модернизирую существующие системы, автоматизирую повторяющуюся работу и делаю процессы понятнее для клиентов.|משפרת מערכות קיימות, הופכת עבודה חוזרת לאוטומטית ומפשטת תהליכים עבור לקוחות.
+COMMERCIAL / ONE CLIENT, TWO WORKSTREAMS|КОММЕРЧЕСКИЙ КЕЙС / ДВА НАПРАВЛЕНИЯ|פרויקט מסחרי / שני תחומי עבודה
+Website features and back-office modernization at eWave Online. Client name withheld.|Функции сайта и модернизация back office в eWave Online. Клиент не указан.|פונקציות באתר ומודרניזציה של מערכת הניהול ב-eWave Online. שם הלקוח אינו מוצג.
+Website features|Функции сайта|פונקציות באתר
+This website and the dashboard below belong to the same client. My website work covered both server-side functionality and bilingual user interfaces.|Сайт и дэшборд ниже относятся к одному клиенту. В работе над сайтом я занималась серверной функциональностью и двуязычным интерфейсом.|האתר והדשבורד למטה שייכים לאותו לקוח. עבודתי באתר כללה פונקציונליות בצד השרת וממשקים דו-לשוניים.
+BACK OFFICE / INDEPENDENT DEVELOPMENT|BACK OFFICE / САМОСТОЯТЕЛЬНАЯ РАЗРАБОТКА|מערכת ניהול / פיתוח עצמאי
+HOW I WORK|КАК Я РАБОТАЮ|איך אני עובדת
+One feature.|Одна задача.|פונקציה אחת.
+Every layer.|Все слои.|כל השכבות.
+Connect the tools to the decisions behind my projects.|Посмотри, как инструменты связаны с решениями в моих проектах.|ראו איך הכלים מתחברים להחלטות בפרויקטים שלי.
+Worked on Azure AD identity, Pulseem email/SMS, and training and CRM APIs.|Работала с идентификацией Azure AD, email/SMS через Pulseem и API систем обучения и CRM.|עבדתי עם הזדהות Azure AD, דוא״ל/SMS דרך Pulseem ו-API של מערכות הדרכה ו-CRM.

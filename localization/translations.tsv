@@ -15,7 +15,6 @@ ONE FEATURE / EVERY LAYER|ОДНА ФУНКЦИЯ / ВСЕ СЛОИ|פיצ׳ר �
 Business logic|Бизнес-логика|לוגיקה עסקית
 Data & reliability|Данные и надёжность|נתונים ואמינות
 The human interface|Интерфейс для человека|הממשק האנושי
-years of production .NET experience|года работы с .NET в продакшене|שנות ניסיון בפיתוח .NET בסביבת ייצור
 END-TO-END FEATURE OWNERSHIP|ОТ ТРЕБОВАНИЯ ДО ГОТОВОЙ ФУНКЦИИ|אחריות על פיצ׳רים מקצה לקצה
 01 / SELECTED WORK|01 / ИЗБРАННЫЕ ПРОЕКТЫ|01 / פרויקטים נבחרים
 Systems I’ve|Системы, которые я|מערכות שעזרתי
@@ -245,14 +244,12 @@ Automating a repeated change reduces the need for repeated manual intervention.|
 Background work and migrations belong in the modernization effort alongside interactive features.|Фоновые задачи и миграции тоже нуждаются в модернизации, как и пользовательские функции.|גם משימות רקע ומיגרציות הן חלק מהמודרניזציה, לצד הפיצ׳רים האינטראקטיביים.
 An interface should help clients understand and complete their everyday work.|Интерфейс должен помогать клиентам понимать и выполнять повседневные задачи.|ממשק צריך לעזור ללקוחות להבין ולהשלים את העבודה היומיומית שלהם.
 Ctrl + S is a love language.|Ctrl + S — язык любви.|Ctrl + S היא שפת אהבה.
-
 Backend — reliable operations and clear business rules.|Backend — надёжные операции и понятные бизнес-правила.|Backend — פעולות אמינות וכללים עסקיים ברורים.
 SQL — responsive data access and consistent records.|SQL — быстрый доступ к данным и их целостность.|SQL — גישה מהירה לנתונים ושמירה על עקביות.
 UI — clearer screens and easier everyday tasks.|UI — понятные экраны и удобные повседневные действия.|UI — מסכים ברורים ופעולות יומיומיות נוחות יותר.
 Technical details|Технические подробности|פרטים טכניים
 WHAT THIS MEANS|ЧТО ЭТО ДАЁТ|מה זה נותן
 A repeated request returns the same policy. Conflicting changes are flagged, and policy actions remain traceable.|Повторный запрос возвращает тот же полис. Система сообщает о конфликтующих изменениях и сохраняет историю действий с полисом.|בקשה חוזרת מחזירה את אותה פוליסה. המערכת מציפה שינויים סותרים ושומרת תיעוד של הפעולות בפוליסה.
-
 Portfolio guide|Проводник по портфолио|מדריך לתיק העבודות
 Explore with me|Посмотри со мной|בואו לסייר איתי
 SOFIA / PORTFOLIO GUIDE|СОФИЯ / ПРОВОДНИК|סופיה / מדריך לתיק העבודות
@@ -288,7 +285,6 @@ Let’s build something useful.|Создадим что-то полезное.|�
 Looking for a full-stack developer or help improving an existing system? You can download my CV, find me on LinkedIn or contact me by email.|Ищешь full-stack разработчика или помощь с улучшением существующей системы? Можно скачать моё резюме, найти меня в LinkedIn или написать по электронной почте.|מחפשים מפתחת Full Stack או עזרה בשיפור מערכת קיימת? אפשר להוריד את קורות החיים שלי, למצוא אותי ב-LinkedIn או לפנות אליי באימייל.
 Your next click could start a conversation.|Следующий клик может стать началом разговора.|הלחיצה הבאה יכולה להתחיל שיחה.
 View contact options|Посмотреть контакты|הצגת אפשרויות יצירת קשר
-
 Hi, I’m Sofia. Let me show you around.|Привет, я София. Давай покажу, над чем я работала.|היי, אני סופיה. בואו אראה לכם על מה עבדתי.
 Meet Sofia|Познакомимся|היכרות עם סופיה
 Ask my drone for a tour|Попросить дрона провести экскурсию|בקשו מהרחפן סיור
@@ -421,7 +417,6 @@ Ask the drone about Sofia|Спросить дрона о Софии|שאלו א�
 Ask the drone about contact options|Спросить дрона о контактах|שאלו את הרחפן על דרכי יצירת קשר
 Read this section|Читать этот раздел|קראו את החלק הזה
 Ask the drone about this section|Спросить дрона об этом разделе|שאלו את הרחפן על החלק הזה
-
 Client dashboard|Клиентский дэшборд|לוח בקרה ללקוחות
 Insurance API|API страхования|API לביטוח
 Skills|Навыки|מיומנויות
@@ -434,7 +429,6 @@ Close|Закрыть|סגירה
 Close guide|Закрыть окно проводника|סגירת חלון המדריך
 Guide settings|Настройки проводника|הגדרות המדריך
 What else would you like to know?|Что ещё хочешь узнать?|מה עוד תרצו לדעת?
-
 I turn complex systems|Превращаю сложные системы|הופכת מערכות מורכבות
 into|в|לכלים
 useful tools.|удобные инструменты.|שימושיים.
@@ -461,7 +455,6 @@ Why does it matter?|Почему это важно?|למה זה חשוב?
 Show the technical part|Показать техническую часть|להציג את החלק הטכני
 Legacy data access|Устаревшая работа с данными|גישה ישנה לנתונים
 Sofia’s avatar smiling at the client’s response|Аватар Софии улыбается реакции клиента|הדמות של סופיה מחייכת לתגובת הלקוח
-
 My approach|Мой подход|הגישה שלי
 Explore|Разделы|ניווט
 Connect|Связь|קישורים
@@ -470,10 +463,8 @@ Complex systems. Clearer workflows.|Сложные системы. Понятн�
 The code outlived several generations of developers. In places, it took revenge.|Код пережил несколько поколений разработчиков. Местами отомстил.|הקוד שרד כמה דורות של מפתחים. פה ושם הוא נקם.
 Let’s go deeper. Almost nobody reads this far.|Идём глубже. Там уже почти никто не читает.|נכנסים עמוק יותר. כאן כבר כמעט אף אחד לא קורא.
 Select a layer to explore my work.|Выбери слой, чтобы узнать о моей работе.|בחרו שכבה כדי להכיר את העבודה שלי.
-
 Full Stack .NET Developer|Full Stack .NET разработчик|מפתחת Full Stack .NET
 Professional summary|Профессиональный профиль|פרופיל מקצועי
-About 2 years of commercial experience|Около 2 лет коммерческого опыта|כשנתיים של ניסיון מסחרי
 Seeking a Full Stack .NET role|Ищу позицию Full Stack .NET|מחפשת תפקיד Full Stack .NET
 Commercial project · Independently developed across SQL, backend, automation and UI.|Коммерческий проект · Самостоятельная разработка: SQL, backend, автоматизация и UI.|פרויקט מסחרי · פיתוח עצמאי ב-SQL, backend, אוטומציה וממשק.
 How I checked the changes|Как я проверяла изменения|איך בדקתי את השינויים
@@ -486,7 +477,6 @@ PolicyService.cs code excerpt|Фрагмент кода PolicyService.cs|קטע 
 Read the complete service|Открыть полный код сервиса|לצפות בקוד השירות המלא
 Excerpt from PolicyService.cs. The full service also handles conflicting payloads and concurrent inserts.|Фрагмент из PolicyService.cs. Полный сервис также обрабатывает изменение данных запроса и одновременные вставки.|קטע מתוך PolicyService.cs. השירות המלא מטפל גם בתוכן בקשה סותר ובהוספות מקבילות.
 Commercial work · My implementation within production projects.|Коммерческая работа · Моя реализация в проектах, работающих в production.|עבודה מסחרית · המימוש שלי בפרויקטים בסביבת production.
-
 COMMERCIAL / FULL STACK|КОММЕРЧЕСКИЙ ПРОЕКТ / FULL STACK|פרויקט מסחרי / FULL STACK
 Corporate website & client dashboard|Корпоративный сайт и клиентский дэшборд|אתר ארגוני ודשבורד ללקוח
 Search, personal accounts, training and bilingual interfaces.|Поиск, личный кабинет, обучение и двуязычный интерфейс.|חיפוש, אזור אישי, הדרכות וממשקים דו-לשוניים.
@@ -500,8 +490,7 @@ Across the stack|Работа по всем слоям|עבודה בכל שכב�
 I worked with Umbraco 13, ASP.NET Core, C#, SQL Server and JavaScript/jQuery across the website’s backend and interface.|Я работала с Umbraco 13, ASP.NET Core, C#, SQL Server и JavaScript/jQuery в backend и интерфейсе сайта.|עבדתי עם Umbraco 13, ASP.NET Core, C#, SQL Server ו-JavaScript/jQuery בצד השרת ובממשק האתר.
 The same client’s dashboard is the modernization case above: legacy SQL procedures, improved server logic, automation, jobs, migrations and a clearer UI.|Дэшборд этого же клиента представлен в кейсе модернизации выше: старые SQL-процедуры, улучшение серверной логики, автоматизация, задачи, миграции и более понятный UI.|הדשבורד של אותו לקוח מופיע בתיאור המודרניזציה למעלה: פרוצדורות SQL ישנות, שיפור לוגיקת השרת, אוטומציה, משימות, מיגרציות וממשק ברור יותר.
 Explore the dashboard modernization|Посмотреть модернизацию дэшборда|לראות את מודרניזציית הדשבורד
-client back office.|клиентский back office.|מערכת ניהול ללקוח.
-
+client back office.|клиентского back office.|מערכת ניהול ללקוח.
 Tel Aviv, Israel / Open to Full Stack .NET roles|Тель-Авив, Израиль / Ищу позицию Full Stack .NET|תל אביב, ישראל / מחפשת תפקיד Full Stack .NET
 I modernize existing systems, automate repeated work and make client workflows easier to understand.|Модернизирую существующие системы, автоматизирую повторяющуюся работу и делаю процессы понятнее для клиентов.|משפרת מערכות קיימות, הופכת עבודה חוזרת לאוטומטית ומפשטת תהליכים עבור לקוחות.
 COMMERCIAL / ONE CLIENT, TWO WORKSTREAMS|КОММЕРЧЕСКИЙ КЕЙС / ДВА НАПРАВЛЕНИЯ|פרויקט מסחרי / שני תחומי עבודה
@@ -514,3 +503,228 @@ One feature.|Одна задача.|פונקציה אחת.
 Every layer.|Все слои.|כל השכבות.
 Connect the tools to the decisions behind my projects.|Посмотри, как инструменты связаны с решениями в моих проектах.|ראו איך הכלים מתחברים להחלטות בפרויקטים שלי.
 Worked on Azure AD identity, Pulseem email/SMS, and training and CRM APIs.|Работала с идентификацией Azure AD, email/SMS через Pulseem и API систем обучения и CRM.|עבדתי עם הזדהות Azure AD, דוא״ל/SMS דרך Pulseem ו-API של מערכות הדרכה ו-CRM.
+Open portfolio guide|Открыть гид по портфолио|פתיחת מדריך תיק העבודות
+Beyond the code|За пределами кода|מעבר לקוד
+Tel Aviv · Freelance projects & .NET roles|Тель-Авив · Фриланс-проекты и работа в .NET|תל אביב · פרויקטי פרילנס ותפקידי .NET
+Better systems.|Улучшаю системы.|מערכות טובות יותר.
+Less manual work.|Убираю ручную работу.|פחות עבודה ידנית.
+I’m Sofia, a full-stack .NET developer. I fix, extend and simplify the systems your business already uses.|Я София, full-stack .NET-разработчик. Исправляю, развиваю и упрощаю системы, которыми уже пользуется ваш бизнес.|אני סופיה, מפתחת Full-stack .NET. מתקנת, מרחיבה ומפשטת מערכות שהעסק שלכם כבר משתמש בהן.
+Discuss a project|Обсудить проект|דיון על פרויקט
+See my work|Посмотреть работы|לצפייה בעבודות
+Services|Услуги|שירותים
+Let’s talk|Связаться|נדבר
+Commercial work at eWave Online. Client identity and proprietary screens are withheld.|Коммерческая работа в eWave Online. Имя клиента и внутренние экраны не раскрываются.|עבודה מסחרית ב-eWave Online. זהות הלקוח והמסכים הפנימיים אינם מוצגים.
+Start with the result. Explore the implementation when you want more detail.|Начните с результата. Откройте реализацию, если хотите узнать подробности.|התחילו מהתוצאה. פתחו את פרטי המימוש כשתרצו להעמיק.
+FREELANCE / HOW I CAN HELP|ФРИЛАНС / ЧЕМ Я МОГУ ПОМОЧЬ|פרילנס / איך אוכל לעזור
+What needs|Что нужно|מה צריך
+to work better?|улучшить?|לעבוד טוב יותר?
+Focused improvements to existing systems, from the database to the screen.|Конкретные улучшения существующих систем — от базы данных до интерфейса.|שיפורים ממוקדים במערכות קיימות, מבסיס הנתונים ועד לממשק.
+A bug to fix. A feature to add.|Нужно исправить ошибку или добавить функцию.|באג שצריך לתקן. יכולת שצריך להוסיף.
+Bug fixes, API changes, forms and improvements to existing .NET or Umbraco websites.|Исправление ошибок, изменения API, формы и доработка сайтов на .NET или Umbraco.|תיקוני באגים, שינויי API, טפסים ושיפורים באתרי .NET או Umbraco קיימים.
+What you get|Что вы получите|מה תקבלו
+A focused code change and verification of the affected workflow.|Изменение нужного кода и проверка затронутого сценария.|שינוי ממוקד בקוד ובדיקת התהליך שהושפע.
+Discuss this task|Обсудить задачу|נדבר על המשימה
+Slow queries. Old procedures.|Медленные запросы и старые процедуры.|שאילתות איטיות. פרוצדורות ישנות.
+Investigate slow queries, stored procedures and data-access logic in an existing application.|Разбор медленных запросов, хранимых процедур и доступа к данным в существующем приложении.|בדיקת שאילתות איטיות, פרוצדורות ולוגיקת גישה לנתונים באפליקציה קיימת.
+A clear explanation of the issue, proposed changes and a comparison using the available environment.|Понятное объяснение причины, предлагаемые изменения и сравнение в доступной среде.|הסבר ברור של הבעיה, שינויים מוצעים והשוואה בסביבה הזמינה.
+Less copying. Fewer manual steps.|Меньше копирования и ручных действий.|פחות העתקות. פחות צעדים ידניים.
+Connect external APIs or improve repeated work in an internal dashboard or business workflow.|Подключение внешних API и автоматизация повторяющихся действий в рабочих процессах и внутренних системах.|חיבור API חיצוניים או שיפור עבודה חוזרת בדשבורד פנימי או בתהליך עסקי.
+An agreed integration or workflow, with validation and error handling.|Согласованная интеграция или рабочий процесс с проверками и обработкой ошибок.|אינטגרציה או תהליך מוסכמים, עם ולידציה וטיפול בשגיאות.
+Describe the task|Опишите задачу|תארו את המשימה
+What happens now, and what should happen instead?|Что происходит сейчас и что должно происходить?|מה קורה היום, ומה צריך לקרות במקום?
+Agree on the scope|Согласуем объём|נסכם את ההיקף
+We agree on the deliverables, timing and cost before implementation.|До начала разработки согласуем результат, сроки и стоимость.|נסכם את התוצרים, לוחות הזמנים והעלות לפני המימוש.
+Build & verify|Реализую и проверю|מימוש ובדיקה
+I implement the agreed changes and explain how to review the result.|Внесу согласованные изменения и объясню, как проверить результат.|אממש את השינויים המוסכמים ואסביר איך לבדוק את התוצאה.
+Explore the full toolkit|Все технологии и инструменты|כל הטכנולוגיות והכלים
+LET’S WORK TOGETHER|ДАВАЙТЕ РАБОТАТЬ ВМЕСТЕ|בואו נעבוד יחד
+Tell me what|Расскажите, что|ספרו לי מה
+you need.|вам нужно.|אתם צריכים.
+A short description is enough to start. No technical specification needed.|Для начала достаточно короткого описания. Готовое техническое задание не требуется.|תיאור קצר מספיק כדי להתחיל. אין צורך באפיון טכני מוכן.
+Have an existing system that could work better? Let’s define a useful next step.|Есть система, которую хочется улучшить? Давайте определим полезный следующий шаг.|יש מערכת קיימת שאפשר לשפר? נגדיר יחד את הצעד הבא.
+Hiring for a .NET role?|Ищете .NET-разработчика в команду?|מגייסים לתפקיד .NET?
+I’m also open to full-stack .NET opportunities. My CV and LinkedIn have more about my experience.|Я также открыта к предложениям full-stack .NET. Подробнее об опыте — в резюме и LinkedIn.|אני פתוחה גם להזדמנויות Full-stack .NET. מידע נוסף על הניסיון שלי בקורות החיים וב-LinkedIn.
+How much will it cost?|Сколько это будет стоить?|כמה זה יעלה?
+The price depends on the task, the existing code and the access needed. We agree on scope and cost after reviewing the requirements.|Стоимость зависит от задачи, существующего кода и необходимого доступа. Объём и цену согласуем после разбора требований.|העלות תלויה במשימה, בקוד הקיים ובגישה הנדרשת. נסכם את ההיקף והעלות לאחר בדיקת הדרישות.
+What can I help with?|С чем нужна помощь?|במה אוכל לעזור?
+Not sure yet|Пока не знаю|עדיין לא בטוח
+.NET / Umbraco fixes|.NET / Umbraco: исправления|תיקוני .NET / Umbraco
+APIs & workflow automation|API и автоматизация процессов|API ואוטומציה של תהליכים
+What would you like to change?|Что вы хотите изменить?|מה תרצו לשנות?
+What happens now? What should happen instead? Add the technologies or a public link if useful.|Что происходит сейчас? Что должно происходить? При необходимости укажите технологии или публичную ссылку.|מה קורה היום? מה צריך לקרות במקום? אפשר לציין טכנולוגיות או קישור ציבורי רלוונטי.
+Timing or constraints (optional)|Сроки или ограничения (необязательно)|לוחות זמנים או מגבלות (לא חובה)
+A deadline, a budget range or a useful constraint|Срок, диапазон бюджета или важное ограничение|מועד יעד, טווח תקציב או מגבלה חשובה
+Please don’t include passwords, access tokens or private customer data.|Не указывайте пароли, токены доступа и личные данные клиентов.|נא לא לכלול סיסמאות, אסימוני גישה או מידע פרטי של לקוחות.
+Prepare email|Подготовить письмо|הכנת הודעת דוא״ל
+Copy brief|Скопировать заявку|העתקת הפנייה
+Opens a draft in your email app. Nothing is sent automatically. You can also copy the brief and email it directly.|Откроется черновик в вашей почтовой программе. Ничего не отправляется автоматически. Можно также скопировать заявку и отправить её самостоятельно.|ייפתח טיוטה באפליקציית הדוא״ל שלכם. דבר לא נשלח אוטומטית. אפשר גם להעתיק את הפנייה ולשלוח אותה ישירות.
+Email me directly using the address beside this form.|Напишите мне напрямую по адресу рядом с формой.|אפשר לשלוח לי דוא״ל ישירות לכתובת שליד הטופס.
+Sofia Museichuk · Freelance .NET Developer|София Мусейчук · .NET-разработчик · Фриланс|סופיה מוסייצ׳וק · מפתחת .NET עצמאית
+Freelance .NET developer in Tel Aviv. .NET and Umbraco fixes, SQL improvements, API integrations and workflow automation. Explore projects and discuss your task.|Фриланс .NET-разработчик в Тель-Авиве. Доработки .NET и Umbraco, улучшение SQL, API и автоматизация. Посмотрите проекты и обсудите задачу.|מפתחת .NET עצמאית בתל אביב. תיקוני .NET ו-Umbraco, שיפורי SQL, חיבורי API ואוטומציה. צפו בפרויקטים ונדבר על המשימה שלכם.
+Review your email draft|Проверьте черновик письма|בדקו את טיוטת הדוא״ל
+Open email draft|Открыть письмо в почте|פתיחת טיוטה בדוא״ל
+Project enquiry|Заявка на проект|פנייה לגבי פרויקט
+Hello Sofia,|Здравствуйте, София!|שלום סופיה,
+Service|Услуга|שירות
+Timing / constraints|Сроки и ограничения|לוחות זמנים / מגבלות
+Please let me know what you need to assess the scope and cost.|Подскажите, что нужно для оценки объёма и стоимости работы.|אשמח לדעת מה נדרש להערכת היקף העבודה והעלות.
+Your draft is ready. Review it below, then open your email app to send it.|Черновик готов. Проверьте его ниже и откройте в своей почте для отправки.|הטיוטה מוכנה. בדקו אותה למטה ופתחו אותה באפליקציית הדוא״ל כדי לשלוח.
+Brief copied. Paste it into an email to Sofia.|Заявка скопирована. Вставьте её в письмо Софии.|הפנייה הועתקה. הדביקו אותה בהודעת דוא״ל לסופיה.
+Copy is unavailable. Select the draft text below and copy it manually.|Копирование недоступно. Выделите текст черновика ниже и скопируйте его вручную.|ההעתקה אינה זמינה. בחרו את הטקסט של הטיוטה למטה והעתיקו אותו ידנית.
+How can I help your project?|Чем я могу помочь вашему проекту?|איך אוכל לעזור לפרויקט שלכם?
+Sofia works on .NET and Umbraco fixes, SQL improvements, API integrations and workflow automation. Describe what happens now and what you want to change; scope, timing and cost are agreed after reviewing the task.|София занимается доработками .NET и Umbraco, улучшением SQL, интеграциями API и автоматизацией процессов. Опишите, что происходит сейчас и что хотите изменить; объём, сроки и стоимость согласуются после разбора задачи.|סופיה עובדת על תיקוני .NET ו-Umbraco, שיפורי SQL, אינטגרציות API ואוטומציה. תארו מה קורה היום ומה תרצו לשנות; ההיקף, לוחות הזמנים והעלות יסוכמו לאחר בדיקת המשימה.
+Describe your project|Расскажите о проекте|ספרו על הפרויקט שלכם
+Freelance services|Фриланс-услуги|שירותי פרילנס
+Share a task, or get in touch about a .NET role. The project brief prepares an email draft for you to review and send.|Опишите задачу или напишите о вакансии .NET. Форма подготовит черновик письма, который можно проверить и отправить.|שתפו משימה או צרו קשר לגבי תפקיד .NET. טופס הפנייה מכין טיוטת דוא״ל שתוכלו לבדוק ולשלוח.
+Review the draft here, then open it in your email app or copy it. Nothing is sent automatically.|Проверьте черновик здесь, затем откройте его в почте или скопируйте. Ничего не отправляется автоматически.|בדקו כאן את הטיוטה, ואז פתחו אותה באפליקציית הדוא״ל או העתיקו אותה. דבר לא נשלח אוטומטית.
+Please describe the task.|Опишите задачу.|נא לתאר את המשימה.
+PERSONAL PROJECTS / RUN LOCALLY|ЛИЧНЫЕ ПРОЕКТЫ / ЛОКАЛЬНЫЙ ЗАПУСК|פרויקטים אישיים / הרצה מקומית
+Habits become quests. Progress becomes visible.|Привычки становятся задачами, а прогресс — заметным.|הרגלים הופכים למשימות. ההתקדמות נעשית ברורה.
+Create a character, choose starter quests and track progress in a habit-building app.|Создание персонажа, выбор стартовых задач и отслеживание прогресса в приложении для привычек.|יצירת דמות, בחירת משימות התחלתיות ומעקב התקדמות באפליקציה לבניית הרגלים.
+Checked locally: onboarding and quest completion, including the progress update.|Проверено локально: настройка персонажа, завершение задачи и обновление прогресса.|נבדק מקומית: תהליך ההתחלה, השלמת משימה ועדכון ההתקדמות.
+See the working screen|Посмотреть рабочий экран|לצפייה במסך הפעיל
+Screens captured from the built-in local demo. Cloud sync and AI services are outside this preview.|Экраны сняты во встроенном локальном деморежиме. Облачная синхронизация и AI-сервисы в этой демонстрации не проверялись.|המסכים צולמו במצב ההדגמה המקומי המובנה. סנכרון ענן ושירותי AI אינם חלק מההדגמה הזאת.
+A catalog with practical editing workflows.|Каталог с понятными сценариями редактирования.|קטלוג עם תהליכי עריכה שימושיים.
+Browse a movie collection, narrow it by genre and use forms to manage its records.|Просмотр коллекции фильмов, фильтрация по жанру и формы для управления записями.|עיון באוסף סרטים, סינון לפי ז׳אנר וטפסים לניהול הרשומות.
+Checked locally: catalog, genre filtering and required-field validation.|Проверено локально: каталог, фильтрация по жанру и проверка обязательных полей.|נבדק מקומית: קטלוג, סינון לפי ז׳אנר ובדיקת שדות חובה.
+Personal project running with a local SQLite database and sample movie records.|Личный проект с локальной базой SQLite и демонстрационными записями фильмов.|פרויקט אישי שפועל עם בסיס נתונים מקומי ב-SQLite ורשומות סרטים לדוגמה.
+Remote collaboration · One-off tasks welcome|Удалённая работа · Разовые задачи приветствуются|עבודה מרחוק · אפשר לפנות גם למשימות חד-פעמיות
+Can I start with a small task?|Можно начать с небольшой задачи?|אפשר להתחיל ממשימה קטנה?
+Yes. I take one-off requests and work remotely. We agree on a specific task and its scope before starting.|Да. Я беру разовые задачи и работаю удалённо. До начала согласуем конкретную задачу и объём работы.|כן. אני מקבלת פניות חד-פעמיות ועובדת מרחוק. נסכם את המשימה והיקף העבודה לפני שמתחילים.
+What about ongoing support?|А дальнейшая поддержка?|ומה לגבי תמיכה שוטפת?
+Ongoing support and further changes require a separate agreement. They are not included automatically in a one-off task.|Постоянная поддержка и новые доработки требуют отдельного согласования. Они не включаются автоматически в разовую задачу.|תמיכה שוטפת ושינויים נוספים מחייבים הסכמה נפרדת. הם אינם נכללים אוטומטית במשימה חד-פעמית.
+Understand the system before changing it.|Понять систему до изменения кода.|להבין את המערכת לפני שמשנים אותה.
+Cartograph maps C#, SQL and Umbraco dependencies so developers can explore call sites and assess the impact of a change.|Cartograph строит карту связей C#, SQL и Umbraco: помогает найти места вызова и оценить, что затронет изменение.|Cartograph ממפה קשרים בין C#, SQL ו-Umbraco כדי לאתר קריאות ולהעריך אילו רכיבים יושפעו משינוי.
+Checked locally: 102 nodes, 119 relationships and a stored-procedure trace in the LegacyShop sample.|Проверено локально: 102 узла, 119 связей и трассировка SQL-процедуры в примере LegacyShop.|נבדק מקומית: 102 צמתים, 119 קשרים ומעקב אחר פרוצדורת SQL בדוגמת LegacyShop.
+Explore the SQL trace|Посмотреть трассировку SQL|לצפייה במעקב SQL
+Personal developer tool. Screens show a generic sample codebase; the preview runs without an AI service.|Личный инструмент для разработчиков. На скриншотах — демонстрационная кодовая база; для этого запуска AI-сервис не нужен.|כלי פיתוח אישי. המסכים מציגים קוד לדוגמה; ההרצה הזו אינה דורשת שירות AI.
+Accessibility settings|Настройки доступности|הגדרות נגישות
+Adjust the display to suit you. Your choices apply across all site languages.|Настройте отображение под себя. Выбранные параметры действуют во всех языках сайта.|התאימו את התצוגה לצרכים שלכם. הבחירות חלות על כל שפות האתר.
+Text size|Размер текста|גודל טקסט
+Standard (100%)|Стандартный (100%)|רגיל (100%)
+Large (125%)|Крупный (125%)|גדול (125%)
+Larger (150%)|Очень крупный (150%)|גדול יותר (150%)
+High contrast|Высокий контраст|ניגודיות גבוהה
+More text spacing|Увеличенные интервалы|ריווח טקסט מוגדל
+Underline links|Подчеркнуть ссылки|הדגשת קישורים בקו תחתון
+Pause animations|Остановить анимацию|עצירת אנימציות
+Hide floating drone|Скрыть летающего дрона|הסתרת הרחפן המרחף
+Your system preference for reduced motion is always respected.|Сайт всегда учитывает системную настройку уменьшения движения.|האתר תמיד מכבד את העדפת המערכת להפחתת תנועה.
+Reset settings|Сбросить настройки|איפוס הגדרות
+Settings saved on this device.|Настройки сохранены на этом устройстве.|ההגדרות נשמרו במכשיר הזה.
+Default settings restored.|Стандартные настройки восстановлены.|הגדרות ברירת המחדל שוחזרו.
+Cookies & your choices|Cookie и ваш выбор|קובצי Cookie והבחירה שלכם
+A necessary cookie remembers your consent choice. With your permission, this site can also remember your accessibility settings in this browser. No analytics or advertising tools are enabled.|Необходимый cookie запомнит ваш выбор согласия. С вашего разрешения сайт также сохранит настройки доступности в этом браузере. Аналитика и рекламные трекеры не подключены.|קובץ Cookie הכרחי זוכר את בחירת ההסכמה שלכם. ברשותכם, האתר יכול לשמור גם את הגדרות הנגישות בדפדפן הזה. אין כלי ניתוח שימוש או מעקב פרסומי פעילים.
+Allow preferences|Разрешить сохранение настроек|לאפשר שמירת העדפות
+Necessary only|Только необходимые|הכרחיים בלבד
+Cookie settings|Настройки cookie|הגדרות Cookie
+Choose what this site may store on your device. You can change your choice at any time using Cookie settings in the footer.|Выберите, что сайт может сохранять на вашем устройстве. Изменить выбор можно в любой момент через «Настройки cookie» внизу страницы.|בחרו מה האתר רשאי לשמור במכשיר שלכם. אפשר לשנות את הבחירה בכל עת דרך הגדרות Cookie בתחתית העמוד.
+Necessary consent cookie — always active|Необходимый cookie согласия — всегда активен|קובץ Cookie הכרחי לשמירת הסכמה — תמיד פעיל
+Stores only whether you allowed preference storage. It does not contain your name or contact details.|Хранит только ваш выбор о сохранении настроек. Не содержит имени или контактных данных.|שומר רק אם אישרתם שמירת העדפות. אינו מכיל את שמכם או פרטי הקשר שלכם.
+Remember accessibility preferences|Запоминать настройки доступности|שמירת העדפות נגישות
+Optional local storage remembers text size, contrast, spacing, link styling and drone settings between visits. These settings are not sent to a server.|Необязательное локальное хранилище запоминает размер текста, контраст, интервалы, подчёркивание ссылок и настройки дрона между посещениями. Эти настройки не отправляются на сервер.|אחסון מקומי אופציונלי זוכר בין ביקורים את גודל הטקסט, הניגודיות, הריווח, סגנון הקישורים והגדרות הרחפן. ההגדרות אינן נשלחות לשרת.
+Your consent choice is kept for six months. Switching to necessary only removes saved accessibility preferences. The accessibility controls still work during the current visit.|Выбор согласия хранится шесть месяцев. Переход на «Только необходимые» удаляет сохранённые настройки доступности. В текущем посещении настройки доступности продолжают работать.|בחירת ההסכמה נשמרת למשך שישה חודשים. מעבר להכרחיים בלבד מוחק העדפות נגישות שנשמרו. כלי הנגישות ממשיכים לפעול במהלך הביקור הנוכחי.
+Save my choice|Сохранить мой выбор|שמירת הבחירה שלי
+Your browser could not save this choice. Optional storage remains off.|Браузер не смог сохранить выбор. Необязательное сохранение остаётся выключенным.|הדפדפן לא הצליח לשמור את הבחירה. האחסון האופציונלי נשאר כבוי.
+Settings applied for this visit. Allow preference storage in cookie settings to remember them.|Настройки применены для текущего посещения. Чтобы запомнить их, разрешите сохранение в настройках cookie.|ההגדרות הוחלו לביקור הנוכחי. כדי לזכור אותן, אפשרו שמירת העדפות בהגדרות Cookie.
+Project feedback|Отзыв о совместной работе|משוב מהפרויקט
+Sofia investigated all the issues in depth and provided a clear, understandable explanation for each one, including explanations that could be passed on to the client. […] Professional, well-organized work that shows a great deal of effort.|София подробно исследовала все ошибки и подготовила понятное объяснение по каждой из них, включая пояснения, которые можно передать клиенту. […] Профессиональная и организованная работа, в которой видно большое вложение сил.|סופיה חקרה לעומק את כל התקלות והביאה פירוט ברור ומובן עבור כל אחת מהן, כולל הסברים שניתן להעביר ללקוחה. […] עבודה מקצועית ומסודרת שמראה השקעה רבה.
+Project manager · Project for the Standards Institution of Israel|Руководитель проекта · проект для Института стандартов Израиля|ניהול פרויקט עבור מכון התקנים הישראלי
+Email excerpt · 24 December 2025 · Published with permission|Фрагмент письма · 24 декабря 2025 · Опубликовано с разрешения|קטע מהודעת דוא״ל · 24 בדצמבר 2025 · פורסם באישור
+Translated from Hebrew|Перевод с иврита|המקור בעברית
+Read the Hebrew excerpt|Прочитать фрагмент на иврите|לקריאת הקטע בעברית
+Your message is voluntary and is used to respond to your enquiry. Read the privacy draft before sending.|Вы добровольно предоставляете сведения для ответа на обращение. Перед отправкой ознакомьтесь с черновиком политики конфиденциальности.|מסירת המידע היא מרצונכם ולצורך מענה לפנייה. קראו את טיוטת מדיניות הפרטיות לפני השליחה.
+Privacy policy|Политика конфиденциальности|מדיניות פרטיות
+Read the case study|Подробнее о проекте|לקריאת תיאור הפרויקט
+Commercial delivery and personal projects, with the decisions behind the work.|Коммерческий опыт и личные проекты — с объяснением принятых решений.|ניסיון מסחרי ופרויקטים אישיים, עם הסבר להחלטות שמאחוריהם.
+Legacy SQL, manual changes and a dashboard that needed a clearer workflow.|Старый SQL, ручные изменения и дашборд, которому требовался более понятный рабочий процесс.|SQL ותיק, שינויים ידניים ולוח בקרה שנדרש בו תהליך עבודה ברור יותר.
+I independently improved SQL, server-side logic, automation and the interface.|Я самостоятельно доработала SQL, серверную логику, автоматизацию и интерфейс.|שיפרתי באופן עצמאי את ה-SQL, הלוגיקה בצד השרת, האוטומציה והממשק.
+The client expressed interest in buying the dashboard.|Клиент выразил желание приобрести дашборд.|הלקוח הביע עניין ברכישת לוח הבקרה.
+Explanatory diagram — no proprietary client screens.|Поясняющая схема — без внутренних экранов клиента.|תרשים להמחשה — ללא מסכים פנימיים של הלקוח.
+Cartograph traces a SQL procedure and shows the affected call site in the LegacyShop sample.|Cartograph показывает SQL-процедуру и место её вызова в демонстрационном LegacyShop.|Cartograph מציג פרוצדורת SQL ואת מקום הקריאה שלה בדוגמת LegacyShop.
+A completed quest and updated progress in the Life RPG local demo.|Завершённая задача и обновлённый прогресс в локальной демонстрации Life RPG.|משימה שהושלמה והתקדמות מעודכנת בהדגמה המקומית של Life RPG.
+A developer tool for exploring C#, SQL and Umbraco dependencies before making a change.|Инструмент для изучения связей C#, SQL и Umbraco перед изменением системы.|כלי למפתחים לבחינת קשרים בין C#, SQL ו-Umbraco לפני שינוי במערכת.
+A habit-building app with character creation, quests and visible progress.|Приложение для привычек с созданием персонажа, задачами и наглядным прогрессом.|אפליקציה לבניית הרגלים עם יצירת דמות, משימות והתקדמות ברורה.
+More backend work: business rules, safe retries and traceable policy changes.|Ещё один backend-проект: бизнес-правила, безопасные повторные запросы и история изменений полисов.|פרויקט backend נוסף: כללים עסקיים, בקשות חוזרות בטוחות והיסטוריית שינויים בפוליסות.
+Accessibility statement|Декларация доступности|הצהרת נגישות
+The task|Задача|המשימה
+My role|Моя роль|התפקיד שלי
+The solution|Решение|הפתרון
+See it in action|Посмотреть в действии|לראות בפעולה
+Evidence & limitations|Подтверждения и ограничения|מה נבדק ומהן המגבלות
+Modernizing a client back office|Модернизация клиентского back office|שדרוג מערכת ניהול ללקוח
+The work connected stored procedures, application logic, background tasks and the interface. Explore each change below.|Работа связала хранимые процедуры, логику приложения, фоновые задачи и интерфейс. Ниже можно изучить каждое изменение.|העבודה חיברה פרוצדורות SQL, לוגיקת יישום, משימות רקע וממשק. אפשר לבחון כל שינוי בהמשך.
+This case uses an explanatory diagram, not proprietary screens. The source code is no longer available to me, and I do not claim measured performance gains or a completed purchase.|В кейсе используется поясняющая схема, а не внутренние экраны. Исходный код мне больше недоступен; я не заявляю измеренного ускорения или состоявшейся покупки.|התיאור משתמש בתרשים להמחשה ולא במסכים פנימיים. קוד המקור כבר אינו זמין לי, ואיני טוענת לשיפור ביצועים מדוד או לרכישה שהושלמה.
+CASE STUDY|ПОДРОБНО О ПРОЕКТЕ|תיאור פרויקט
+Business rules and predictable writes in a personal .NET API.|Бизнес-правила и предсказуемая запись данных в личном API на .NET.|כללים עסקיים וכתיבה צפויה של נתונים ב-API אישי ב-.NET.
+Manage customers and policy lifecycles while handling duplicate requests and conflicting updates.|Управлять клиентами и жизненным циклом полисов, обрабатывая повторные запросы и конфликтующие изменения.|לנהל לקוחות ומחזור חיי פוליסות תוך טיפול בבקשות כפולות ובעדכונים מתנגשים.
+I implemented the backend, business rules and API tests in this personal project.|В этом личном проекте я реализовала backend, бизнес-правила и тесты API.|בפרויקט האישי הזה מימשתי את ה-backend, הכללים העסקיים ובדיקות ה-API.
+The interactive example is a browser simulation. It does not call a hosted API, and the full SQL Server deployment was not verified in this portfolio preview.|Интерактивный пример — симуляция в браузере. Он не обращается к опубликованному API; полный запуск с SQL Server в этой демонстрации портфолио не проверен.|הדוגמה האינטראקטיבית היא סימולציה בדפדפן. היא אינה פונה ל-API מתארח, ופריסה מלאה עם SQL Server לא נבדקה בתצוגה הזו.
+Before changing a legacy system, understand which C# methods, SQL procedures and CMS elements depend on one another.|Перед изменением старой системы понять, какие методы C#, SQL-процедуры и элементы CMS зависят друг от друга.|לפני שינוי במערכת ותיקה, להבין אילו מתודות C#, פרוצדורות SQL ורכיבי CMS תלויים זה בזה.
+A personal developer-tool project connecting indexing, a searchable graph and a web interface.|Личный инструмент для разработчиков, объединяющий индексацию, поиск по графу и веб-интерфейс.|פרויקט כלי פיתוח אישי המחבר אינדוקס, גרף עם חיפוש וממשק אינטרנט.
+Roslyn, T-SQL parsing and Umbraco/uSync indexing feed a SQLite graph. The dashboard and MCP tools expose search, call sites and impact information.|Roslyn, разбор T-SQL и индексация Umbraco/uSync наполняют граф в SQLite. Дашборд и MCP-инструменты показывают поиск, места вызова и затрагиваемые компоненты.|Roslyn, ניתוח T-SQL ואינדוקס Umbraco/uSync מזינים גרף ב-SQLite. לוח הבקרה וכלי MCP מציגים חיפוש, מקומות קריאה והשפעות אפשריות.
+LegacyShop overview: projects, endpoints, procedures and integrations found by the indexer.|Обзор LegacyShop: проекты, endpoints, процедуры и интеграции, найденные индексатором.|סקירת LegacyShop: פרויקטים, endpoints, פרוצדורות ואינטגרציות שנמצאו באינדוקס.
+The local LegacyShop sample produced 102 nodes and 119 relationships. These are demonstration counts, not business-impact metrics. The preview ran without an AI service; external MCP integration and cloud chat were not tested.|Локальный пример LegacyShop дал 102 узла и 119 связей. Это объём демонстрации, а не бизнес-показатели. Запуск работал без AI-сервиса; подключение к внешнему MCP-клиенту и облачный чат не проверялись.|דוגמת LegacyShop המקומית יצרה 102 צמתים ו-119 קשרים. אלה נתוני הדגמה ולא מדדי השפעה עסקית. ההרצה פעלה ללא שירות AI; חיבור ללקוח MCP חיצוני וצ׳אט בענן לא נבדקו.
+Turn everyday habits into quests with a character, rewards and visible progress.|Превратить повседневные привычки в задачи с персонажем, наградами и наглядным прогрессом.|להפוך הרגלים יומיומיים למשימות עם דמות, תגמולים והתקדמות ברורה.
+A personal application project with a React Native / Expo interface and a .NET backend. This case demonstrates the local interface flow.|Личный проект приложения с интерфейсом React Native / Expo и backend на .NET. В этом кейсе показан локальный сценарий интерфейса.|פרויקט יישום אישי עם ממשק React Native / Expo ו-backend ב-.NET. התיאור מציג את תהליך הממשק המקומי.
+Create a character, choose starter quests, claim a daily reward and complete a quest to update progress.|Создать персонажа, выбрать стартовые задачи, получить ежедневную награду и завершить задачу с обновлением прогресса.|ליצור דמות, לבחור משימות התחלה, לקבל תגמול יומי ולהשלים משימה שמעדכנת את ההתקדמות.
+The character dashboard in the Life RPG local demo.|Экран персонажа в локальной демонстрации Life RPG.|מסך הדמות בהדגמה המקומית של Life RPG.
+Onboarding, the daily reward and quest completion were checked in the built-in local demo. Cloud sync, server authentication and AI services were not verified by these screens.|Настройка персонажа, ежедневная награда и завершение задачи проверены во встроенном локальном деморежиме. Эти экраны не подтверждают облачную синхронизацию, серверную авторизацию или AI-сервисы.|יצירת הדמות, התגמול היומי והשלמת המשימה נבדקו במצב ההדגמה המקומי המובנה. המסכים אינם מאמתים סנכרון בענן, אימות בשרת או שירותי AI.
+Modernizing a client back office · Sofia Museichuk|Модернизация клиентского back office · Sofia Museichuk|שדרוג מערכת ניהול ללקוח · Sofia Museichuk
+Privacy policy · Sofia Museichuk|Политика конфиденциальности · София Мусейчук|מדיניות פרטיות · סופיה מוסייצ'וק
+Accessibility statement · Sofia Museichuk|Декларация доступности · София Мусейчук|הצהרת נגישות · סופיה מוסייצ'וק
+Back to projects|К проектам|חזרה לפרויקטים
+Draft for review|Черновик для проверки|טיוטה לבדיקה
+How this portfolio handles enquiries, cookies and saved preferences. Draft for review.|Как портфолио обрабатывает обращения, cookie и сохранённые настройки. Черновик для проверки.|כיצד תיק העבודות מטפל בפניות, בעוגיות ובהעדפות שנשמרו. טיוטה לבדיקה.
+This draft describes the portfolio's current features. It requires owner confirmation and legal review before publication.|Этот черновик описывает текущие функции портфолио. Перед публикацией нужны подтверждение владелицы и юридическая проверка.|טיוטה זו מתארת את התכונות הנוכחיות של תיק העבודות. לפני הפרסום נדרשים אישור בעלת האתר ובדיקה משפטית.
+Who is responsible?|Кто отвечает за данные?|מי אחראית?
+Sofia Museichuk manages this portfolio and enquiries. Contact:|София Мусейчук управляет этим портфолио и обрабатывает обращения. Контакт:|סופיה מוסייצ'וק מנהלת את תיק העבודות ואת הפניות. ליצירת קשר:
+Your enquiry|Ваше обращение|הפנייה שלכם
+The form prepares a draft in your browser. It does not send your message automatically. If you send it through your email app, Sofia receives your sender details and message to answer questions, discuss a project and manage the resulting correspondence.|Форма готовит черновик в вашем браузере и не отправляет сообщение автоматически. Если вы отправите его через почтовое приложение, София получит данные отправителя и сообщение, чтобы ответить на вопросы, обсудить проект и вести дальнейшую переписку.|הטופס מכין טיוטה בדפדפן ואינו שולח את ההודעה אוטומטית. אם תשלחו אותה דרך יישום הדוא״ל שלכם, סופיה תקבל את פרטי השולח ואת ההודעה כדי להשיב לשאלות, לדון בפרויקט ולנהל את ההתכתבות בהמשך.
+Providing information is voluntary. Please include a way to reply and enough detail to discuss your request. Without these, a useful response may not be possible. Do not include passwords, access tokens or private customer data.|Предоставление информации добровольное. Укажите способ связи и достаточно сведений для обсуждения запроса. Без них содержательный ответ может быть невозможен. Не указывайте пароли, токены доступа или частные данные клиентов.|מסירת המידע היא מרצון. אנא ציינו דרך להשיב ומספיק פרטים לדיון בבקשה. ללא מידע זה ייתכן שלא ניתן יהיה לתת תשובה מועילה. אין לכלול סיסמאות, אסימוני גישה או מידע פרטי של לקוחות.
+Cookies and saved settings|Cookie и сохранённые настройки|עוגיות והגדרות שנשמרו
+There are no analytics or advertising trackers. The necessary cookie sofia_portfolio_consent stores your choice for 180 days. Only with your permission, local storage saves accessibility and motion preferences under sofia-accessibility and sofia-motion-paused. Withdrawing permission removes these saved preferences.|Аналитические и рекламные трекеры отсутствуют. Необходимый cookie sofia_portfolio_consent хранит ваш выбор 180 дней. Только с вашего разрешения локальное хранилище сохраняет настройки доступности и движения под ключами sofia-accessibility и sofia-motion-paused. Отзыв разрешения удаляет эти сохранённые настройки.|אין כלי מעקב לצורכי ניתוח שימוש או פרסום. העוגייה ההכרחית sofia_portfolio_consent שומרת את הבחירה שלכם למשך 180 ימים. רק באישורכם, האחסון המקומי שומר העדפות נגישות ותנועה תחת sofia-accessibility ו-sofia-motion-paused. ביטול האישור מסיר את ההעדפות השמורות האלה.
+Change cookie choices|Изменить выбор cookie|שינוי בחירת העוגיות
+Hosting and email providers|Хостинг и почтовые сервисы|ספקי אחסון ודוא״ל
+The site is intended for GitHub Pages hosting. A hosting provider may process technical requests, including IP addresses and request logs. Email providers process sender details and messages when you send an enquiry. Their own terms and privacy policies also apply.|Сайт предназначен для размещения на GitHub Pages. Хостинг-провайдер может обрабатывать технические запросы, включая IP-адреса и журналы запросов. При отправке обращения почтовые сервисы обрабатывают данные отправителя и сообщения. Также действуют их собственные условия и политики конфиденциальности.|האתר מיועד לאחסון ב-GitHub Pages. ספק האחסון עשוי לעבד בקשות טכניות, לרבות כתובות IP ויומני בקשות. ספקי דוא״ל מעבדים פרטי שולח והודעות בעת שליחת פנייה. גם התנאים ומדיניות הפרטיות שלהם חלים.
+Access and correction|Доступ и исправление|עיון ותיקון
+Contact Sofia to request access to or correction of your personal information, subject to applicable law and identity verification where needed.|Свяжитесь с Софией, чтобы запросить доступ к своим персональным данным или их исправление, с учётом применимого законодательства и проверки личности при необходимости.|פנו לסופיה כדי לבקש לעיין במידע האישי שלכם או לתקן אותו, בכפוף לדין החל ולאימות זהות במידת הצורך.
+Owner confirmation needed|Нужно подтверждение владелицы|נדרש אישור בעלת האתר
+No business registration details have been supplied. A fixed retention period for enquiry correspondence has not been confirmed. These items and the final hosting arrangements must be reviewed before publishing this policy.|Реквизиты регистрации бизнеса не предоставлены. Фиксированный срок хранения переписки по обращениям не подтверждён. Эти сведения и окончательные условия хостинга нужно проверить перед публикацией политики.|לא נמסרו פרטי רישום עסק. לא אושרה תקופת שמירה קבועה להתכתבות בנושא פניות. יש לבדוק פרטים אלה ואת הסדרי האחסון הסופיים לפני פרסום המדיניות.
+Israeli Privacy Protection Authority: informing people when collecting information|Израильское управление по защите приватности: информирование при сборе данных|הרשות להגנת הפרטיות בישראל: חובת יידוע בעת איסוף מידע
+Accessibility features, remaining checks and contact details for this portfolio. Draft for review.|Функции доступности портфолио, оставшиеся проверки и контактные данные. Черновик для проверки.|תכונות הנגישות של תיק העבודות, בדיקות שטרם הושלמו ופרטי קשר. טיוטה לבדיקה.
+This statement describes the site's accessibility features and remaining checks. It is a draft, not a certification of compliance.|Эта декларация описывает функции доступности сайта и оставшиеся проверки. Это черновик, а не подтверждение соответствия требованиям.|הצהרה זו מתארת את תכונות הנגישות באתר ואת הבדיקות שעדיין נדרשות. זו טיוטה ולא אישור עמידה בדרישות.
+Features available|Доступные функции|תכונות זמינות
+Keyboard navigation, visible focus, a skip link and structured headings.|Навигация с клавиатуры, видимый фокус, ссылка перехода к содержимому и структура заголовков.|ניווט במקלדת, מיקוד גלוי, קישור דילוג לתוכן וכותרות במבנה מסודר.
+Form labels and dialogs designed to manage focus and close with Escape.|Подписи полей формы и диалоги с управлением фокусом и закрытием по Escape.|תוויות לשדות הטופס וחלונות דו־שיח שנועדו לנהל מיקוד ולהיסגר באמצעות Escape.
+Text size options up to 150%, increased spacing, contrast and link emphasis.|Увеличение текста до 150%, увеличенные интервалы, контраст и выделение ссылок.|אפשרויות להגדלת טקסט עד 150%, הגדלת מרווחים, ניגודיות והדגשת קישורים.
+Controls to pause animation and hide the drone, plus reduced-motion support.|Остановка анимации, скрытие дрона и поддержка системного уменьшения движения.|אפשרויות להשהיית הנפשה ולהסתרת הרחפן, ותמיכה בהעדפה להפחתת תנועה.
+English, Ukrainian, Russian and Hebrew, including right-to-left layouts.|Английский, украинский, русский и иврит, включая вёрстку справа налево.|אנגלית, אוקראינית, רוסית ועברית, כולל פריסות מימין לשמאל.
+Open the accessibility button to adjust the display. Settings are saved between visits only when you allow preference storage.|Используйте кнопку доступности, чтобы настроить отображение. Настройки сохраняются между посещениями только с вашего разрешения.|פתחו את כפתור הנגישות כדי להתאים את התצוגה. ההגדרות נשמרות בין ביקורים רק אם תאשרו שמירת העדפות.
+Checks still needed|Какие проверки ещё нужны|בדיקות שעדיין נדרשות
+Keyboard and responsive checks have been carried out during development. A complete audit with NVDA or VoiceOver has not been completed. The CV PDF and all interactive project demonstrations have not undergone a full accessibility audit.|Во время разработки проверялись управление клавиатурой и адаптивная вёрстка. Полный аудит с NVDA или VoiceOver не завершён. PDF с резюме и все интерактивные демонстрации проектов не прошли полный аудит доступности.|במהלך הפיתוח בוצעו בדיקות מקלדת ותצוגה מותאמת. לא הושלמה בדיקה מלאה באמצעות NVDA או VoiceOver. קובץ קורות החיים ב-PDF וכל הדגמות הפרויקטים האינטראקטיביות לא עברו בדיקת נגישות מלאה.
+No claim of complete WCAG compliance, external certification or legal exemption is made. Further testing and review may identify additional barriers.|Полное соответствие WCAG, внешняя сертификация или освобождение от требований закона не заявляются. Дальнейшие проверки могут выявить дополнительные препятствия.|אין כאן טענה לעמידה מלאה ב-WCAG, להסמכה חיצונית או לפטור חוקי. בדיקות נוספות עשויות לזהות חסמים נוספים.
+Report a difficulty|Сообщить о затруднении|דיווח על קושי
+Contact Sofia Museichuk at|Напишите Софии Мусейчук на|פנו לסופיה מוסייצ'וק בכתובת
+if you cannot use part of the site or need information in another format.|если вам недоступна часть сайта или нужна информация в другом формате.|אם אינכם יכולים להשתמש בחלק מהאתר או זקוקים למידע בפורמט אחר.
+If possible, include the page address, the action you tried, your browser and any assistive technology. Share only what is needed to explain the problem. Sofia will review the request and discuss a suitable way to help.|По возможности укажите адрес страницы, действие, которое вы пытались выполнить, браузер и вспомогательную технологию. Передавайте только сведения, нужные для объяснения проблемы. София рассмотрит обращение и обсудит подходящий способ помочь.|אם אפשר, ציינו את כתובת העמוד, הפעולה שניסיתם לבצע, הדפדפן וטכנולוגיה מסייעת שבה השתמשתם. שתפו רק את המידע הדרוש להסבר הבעיה. סופיה תבחן את הפנייה ותדון בדרך מתאימה לסייע.
+Before publication|Перед публикацией|לפני הפרסום
+The owner must confirm the statement's accuracy, complete the remaining checks and obtain advice on which Israeli accessibility obligations apply.|Владелице нужно подтвердить точность декларации, завершить оставшиеся проверки и получить консультацию о применимых израильских требованиях доступности.|על בעלת האתר לאשר את דיוק ההצהרה, להשלים את הבדיקות שנותרו ולקבל ייעוץ לגבי חובות הנגישות הישראליות החלות.
+Official Israeli guidance on website accessibility|Официальное израильское руководство по доступности сайтов|הנחיות רשמיות בישראל לנגישות אתרי אינטרנט
+Project screenshot|Скриншот проекта|צילום מסך של הפרויקט
+Close screenshot|Закрыть скриншот|סגירת צילום המסך
+Screenshot viewing area|Область просмотра скриншота|אזור צפייה בצילום המסך
+Previous screenshot|Предыдущий скриншот|צילום המסך הקודם
+Next screenshot|Следующий скриншот|צילום המסך הבא
+View at full size|Открыть в полном размере|צפייה בגודל מלא
+Fit image|Уместить изображение|התאמת התמונה לחלון
+Loading screenshot…|Загрузка скриншота…|טעינת צילום המסך…
+The screenshot could not be loaded. Close this view and open the image link directly.|Не удалось загрузить скриншот. Закройте это окно и откройте ссылку на изображение напрямую.|לא ניתן לטעון את צילום המסך. סגרו חלון זה ופתחו את הקישור לתמונה ישירות.
+
+Commercial work and personal projects.|Коммерческая работа и личные проекты.|עבודה מסחרית ופרויקטים אישיים.
+Start with the client dashboard, Cartograph or Life RPG. Each case explains my contribution and its limitations.|Начните с клиентского дашборда, Cartograph или Life RPG. В каждом кейсе описаны мой вклад и ограничения.|התחילו בלוח הבקרה, ב־Cartograph או ב־Life RPG. כל מקרה מתאר את התרומה שלי ואת מגבלותיו.
+Understand a system before changing it.|Понять систему до изменений.|להבין את המערכת לפני שמשנים אותה.
+Explore dependencies between C#, SQL and Umbraco in a local sample.|Изучите связи C#, SQL и Umbraco на локальном примере.|גלו קשרים בין C#, SQL ו־Umbraco בדוגמה מקומית.
+Habits become quests.|Привычки становятся квестами.|הרגלים הופכים למשימות.
+See character creation, quests and progress in the local demo.|Посмотрите создание персонажа, задачи и прогресс в локальной демонстрации.|צפו ביצירת דמות, משימות והתקדמות בהדגמה המקומית.
+Breadcrumb|Навигационная цепочка|נתיב ניווט

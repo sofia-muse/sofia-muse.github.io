@@ -70,11 +70,9 @@
   queued = false;
   const maximum = Math.max(1, document.documentElement.scrollHeight - window.innerHeight);
   progress.style.transform = `scaleX(${Math.min(1,Math.max(0,window.scrollY / maximum))})`;
-  let current = '';
-  navLinks.forEach(link => {
-   const target = document.getElementById(link.getAttribute('href').slice(1));
-   if (target && target.getBoundingClientRect().top <= 155) current = link.getAttribute('href');
-  });
+  const threshold=(document.querySelector('.site-header')?.getBoundingClientRect().bottom||100)+30;
+  const reached=navLinks.map(link=>({href:link.getAttribute('href'),target:document.getElementById(link.getAttribute('href').slice(1))})).filter(item=>item.target).map(item=>({...item,top:item.target.getBoundingClientRect().top})).filter(item=>item.top<=threshold).sort((a,b)=>b.top-a.top);
+  const current=reached[0]?.href||'';
   navLinks.forEach(link => {
    if (link.getAttribute('href') === current) link.setAttribute('aria-current','location');
    else link.removeAttribute('aria-current');

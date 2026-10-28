@@ -13,6 +13,7 @@
  const visible=new Set();
  const characters=[...document.querySelectorAll('[data-character=welcome]')];
  const canMove=()=>!motion.matches&&!paused&&!document.hidden;
+ window.addEventListener('portfolio-motion-change',()=>{paused=document.documentElement.classList.contains('motion-paused');motionToggle.setAttribute('aria-pressed',String(paused));motionToggle.textContent=t(paused?'Resume motion':'Pause motion');if(paused)halt();});
  const blends=new Map();
  const lastGreeting=new Map();
  function clearBlend(element){const blend=blends.get(element);if(!blend)return;clearTimeout(blend.timer);element.style.backgroundPosition=blend.target;blend.layer.style.transition='none';blend.layer.style.opacity='0';blends.delete(element);}
@@ -38,7 +39,7 @@
   timers.set(element,ids);
  }
  function halt(){characters.forEach(stop);}
- motionToggle.addEventListener('click',()=>{paused=!paused;document.documentElement.classList.toggle('motion-paused',paused);try{localStorage.setItem('sofia-motion-paused',String(paused));}catch{}window.dispatchEvent(new Event('portfolio-motion-change'));motionToggle.setAttribute('aria-pressed',String(paused));motionToggle.textContent=t(paused?'Resume motion':'Pause motion');if(paused)halt();});
+ motionToggle.addEventListener('click',()=>{paused=!paused;document.documentElement.classList.toggle('motion-paused',paused);window.portfolioStorage.set('sofia-motion-paused',String(paused));window.dispatchEvent(new Event('portfolio-motion-change'));motionToggle.setAttribute('aria-pressed',String(paused));motionToggle.textContent=t(paused?'Resume motion':'Pause motion');if(paused)halt();});
  motion.addEventListener('change',()=>{if(motion.matches)halt();});
  document.addEventListener('visibilitychange',()=>{if(document.hidden)halt();});
  characters.forEach(el=>el.addEventListener('pointerenter',()=>{if(!timers.has(el))animate(el,'blink');}));
@@ -50,7 +51,10 @@
  const questions=document.getElementById('guide-questions');
  const explore=document.getElementById('guide-explore');
  const topics={
-  projects:{title:'Two projects. Different challenges.',copy:'Explore a client dashboard rebuilt across the stack, or a personal API focused on reliable operations.',questions:['dashboard','api']},
+  services:{title:'How can I help your project?',copy:"Sofia works on .NET and Umbraco fixes, SQL improvements, API integrations and workflow automation. Describe what happens now and what you want to change; scope, timing and cost are agreed after reviewing the task.",target:'services',action:'Freelance services',questions:['projects','contact']},
+  projects:{title:'Commercial work and personal projects.',copy:'Start with the client dashboard, Cartograph or Life RPG. Each case explains my contribution and its limitations.',questions:['dashboard','cartograph','life','api'],target:'work',action:'Show me the projects'},
+  cartograph:{label:'Cartograph',title:'Understand a system before changing it.',copy:'Explore dependencies between C#, SQL and Umbraco in a local sample.',target:'cartograph-case',action:'Read the case study'},
+  life:{label:'Life RPG',title:'Habits become quests.',copy:'See character creation, quests and progress in the local demo.',target:'life-rpg-case',action:'Read the case study'},
   dashboard:{title:'A dashboard worth buying.',copy:'Sofia independently improved SQL, server logic, automation and UI. The result was a dashboard the client wanted to buy, although buying it was not originally planned.',questions:['changes','value','technical'],target:'dashboard-overview',action:'Explore the dashboard'},
   challenge:{label:'What was difficult?',title:'Several layers. One workflow.',copy:'Stored procedures dated back to 2013. Server logic, API calls, manual changes, jobs, migrations and the interface all needed attention. Sofia worked across these layers herself.',questions:['changes','value'],target:'dashboard-overview',action:'Explore the dashboard'},
   changes:{label:'What changed?',title:'From manual changes to automation.',copy:'She rewrote stored procedures, improved server-side logic, reorganized API calls, automated manual changes, optimized jobs and migrations, and made the UI cleaner and easier to use.',questions:['challenge','value','technical'],target:'dashboard-overview',action:'Explore the dashboard'},
@@ -59,25 +63,27 @@
   api:{title:'Reliable operations, explained.',copy:'The insurance API demonstrates how Sofia handles repeated requests, conflicting changes and clear business rules. Choose a situation to see why it matters.',questions:['retry','conflict'],target:'insurance-details',action:'Explore the API decisions'},
   retry:{label:'What if I click twice?',title:'A retry should not create a duplicate.',copy:'If the same request is sent again with the same key and information, the API returns the existing result. Reusing that key with different information produces a conflict.',questions:['conflict'],target:'api-demo',action:'Try the interactive example'},
   conflict:{label:'What if two people edit at once?',title:'Conflicting changes should be visible.',copy:'A version check detects when someone else has already changed a record. The API reports the conflict instead of silently overwriting the newer information.',questions:['retry'],target:'api-demo',action:'Try the interactive example'},
-  skills:{title:'The tools behind the work.',copy:'C#, ASP.NET Core, SQL and JavaScript connect business rules, data and the interface. Pick a layer to see how Sofia uses it.',questions:['logic','data','interface'],target:'skill-insight',action:'Explore the skill map'},
+  skills:{title:'The tools behind the work.',copy:'C#, ASP.NET Core, SQL and JavaScript connect business rules, data and the interface. Pick a layer to see how Sofia uses it.',questions:['logic','data','interface'],target:'services',action:'Freelance services'},
   logic:{label:'Business logic',title:'Backend decisions, visible in code.',copy:'C# and ASP.NET Core power business rules, validation and API operations. The insurance project shows safe retries and explicit handling of conflicting changes.',target:'insurance-details',action:'Explore the API decisions',questions:['data','interface']},
   data:{label:'Data & reliability',title:'SQL that supports the workflow.',copy:'Sofia rewrote legacy stored procedures and optimized jobs and migrations in the client dashboard. Her API also uses SQL constraints and version checks to protect consistent records.',target:'dashboard-overview',action:'Explore the dashboard',questions:['logic','interface']},
   interface:{label:'The human interface',title:'Clearer screens. Easier everyday tasks.',copy:'JavaScript, Razor and Umbraco connect the interface to production systems. Sofia improved the dashboard UI and worked with Hebrew and English interfaces.',target:'production-platforms',action:'Read about production work',questions:['logic','data']},
   about:{title:'The person behind the code.',copy:'Sofia is a full-stack developer with production .NET experience. She connects business logic, data and usable interfaces, with room for art and curiosity outside code.',target:'about',action:'Read about Sofia',questions:['skills','contact']},
-  contact:{title:'Let’s build something useful.',copy:'Looking for a full-stack developer or help improving an existing system? Download Sofia’s CV, find her on LinkedIn or contact her by email.',target:'contact',action:'View contact options',questions:['projects','skills']}
+  contact:{title:'Let’s build something useful.',copy:'Share a task, or get in touch about a .NET role. The project brief prepares an email draft for you to review and send.',target:'contact',action:'View contact options',questions:['projects','skills']}
  };
  const menu=document.getElementById('guide-menu');
  const back=document.getElementById('guide-back');
  const homeButton=document.getElementById('guide-home');
  const location=document.getElementById('guide-location');
  const questionGroup=document.getElementById('guide-followup');
- const labels={technical:'Client dashboard',projects:'Projects',dashboard:'Client dashboard',challenge:'Client dashboard',changes:'Client dashboard',value:'Client dashboard',api:'Insurance API',retry:'Insurance API',conflict:'Insurance API',skills:'Skills',logic:'Skills',data:'Skills',interface:'Skills',about:'About Sofia',contact:'Contact'};
+ const labels={services:'Freelance services',technical:'Client dashboard',projects:'Projects',dashboard:'Client dashboard',challenge:'Client dashboard',changes:'Client dashboard',value:'Client dashboard',api:'Insurance API',retry:'Insurance API',conflict:'Insurance API',skills:'Skills',logic:'Skills',data:'Skills',interface:'Skills',about:'About Sofia',contact:'Contact'};
  let current=null,currentEntry={key:null},history=[];
  let returnFocus=launcher;
  let flightContext=null;
  let droneHidden=false;
  let flightLayer=null;
- function stopFlight(){if(!flightLayer)return;const position=getComputedStyle(flightLayer).transform;flightLayer.style.transition='none';if(position!=='none')flightLayer.style.transform=position;}
+ let flightFrame=0,positionY=null,positionX=null,targetY=0,lastFlightTime=0;
+ let crossing=null,flightSide=null,scrollSettled=0,lastScrollAt=0;
+ function stopFlight(){cancelAnimationFrame(flightFrame);flightFrame=0;lastFlightTime=0;flightLayer?.style.setProperty('--flight-tilt','0deg');}
  function render(entry){
   currentEntry=entry;
   const topic=topics[entry.key];current=topic?{...topic}:null;
@@ -122,107 +128,112 @@
  back.addEventListener('click',()=>{if(!history.length)return;render(history.pop());title.focus({preventScroll:true});document.getElementById('guide-body').scrollTop=0;});
  document.querySelectorAll('[data-guide-topic]').forEach(button=>button.addEventListener('click',()=>{const entry={key:button.dataset.guideTopic};if(panel.contains(button))navigate(entry);else open(button,entry);}));
  document.addEventListener('keydown',event=>{if(event.key==='Escape'&&!panel.hidden){event.preventDefault();close();}});
- explore.addEventListener('click',()=>{const target=document.getElementById(current?.target);if(!target)return;if(target.tagName==='DETAILS')target.open=true;close(false);target.scrollIntoView({behavior:canMove()?'smooth':'auto',block:'start'});target.setAttribute('tabindex','-1');target.focus({preventScroll:true});});
+ explore.addEventListener('click',()=>{const target=document.getElementById(current?.target);if(!target){const routes={'cartograph-case':'cartograph','life-rpg-case':'life-rpg','dashboard-overview':'client-dashboard','dashboard-details':'client-dashboard','production-platforms':'client-dashboard','insurance-details':'insurance-api','api-demo':'insurance-api'};const route=routes[current?.target];if(route){const lang=document.documentElement.lang;window.location.assign((lang==='en'?'':'/'+lang)+'/projects/'+route+'/#'+current.target);}return;}for(let node=target;node;node=node.parentElement){if(node.tagName==='DETAILS')node.open=true;}close(false);target.scrollIntoView({behavior:canMove()?'smooth':'auto',block:'start'});target.setAttribute('tabindex','-1');target.focus({preventScroll:true});});
  document.querySelectorAll('[data-skill]').forEach(button=>button.addEventListener('click',()=>{if(!panel.hidden)navigate({key:button.dataset.skill});}));
  render({key:null});
- // The launcher stays in a viewport layer so scrolling never removes it.
+ // Fly inside the reserved side rail, with one continuous motion controller.
  flightLayer=document.createElement('div');flightLayer.className='drone-flight-layer';
  document.body.append(flightLayer);flightLayer.append(launcher);
  const chapters=[
-  ['#skills-map-title','skills','Ask the drone about the skills'],
-  ['#work-title','projects','Ask the drone about the projects'],
-  ['.dashboard-intro h3','dashboard','Ask the drone about the dashboard'],
-  ['.featured-copy h3','api','Ask the drone about the API'],
-  ['#notes-title','projects','Ask the drone about the projects'],
-  ['#about-title','about','Ask the drone about Sofia'],
-  ['#stack-title','skills','Ask the drone about the skills'],
-  ['#contact-title','contact','Ask the drone about contact options']
- ];
- const stops=[];
- chapters.forEach(([selector,topic,label])=>{
-  const heading=document.querySelector(selector);if(!heading)return;
-  const wrapper=document.createElement('div');wrapper.className='drone-heading-anchor';
-  heading.parentNode.insertBefore(wrapper,heading);wrapper.append(heading);
-  const dock=document.createElement('div');dock.className='drone-reading-dock';wrapper.append(dock);
-  stops.push({element:wrapper,dock,scope:heading.closest('article, section')||wrapper,topic,label});
- });
- document.querySelectorAll('main details').forEach((detail,index)=>{
-  const summary=detail.querySelector('summary');if(!summary)return;
-  if(!detail.id)detail.id=`reader-detail-${index}`;
-  const dock=document.createElement('div');dock.className='drone-reading-dock detail-reading-dock';
-  summary.insertAdjacentElement('afterend',dock);
-  const topic=detail.id==='dashboard-details'?'changes':detail.id==='api-demo'?'retry':detail.closest('#insurance-project')?'api':detail.classList.contains('work-row')?'interface':detail.classList.contains('note-card')?([...document.querySelectorAll('.note-card')].indexOf(detail)===0?'retry':'changes'):'projects';
-  const stop={element:dock,dock,scope:detail,detail,topic,label:'Ask the drone about this section'};stops.push(stop);
-  detail.addEventListener('toggle',()=>{if(detail.open&&scopeVisible(stop)){expandedStop=stop;settleScroll();}else{if(expandedStop===stop)expandedStop=null;queueFlight();}});
- });
- let expandedStop=null;
- let flightQueued=false;
- let fastScrolling=false;
- let settleTimer=null;
- let previousScroll=window.scrollY;
- let previousScrollTime=performance.now();
- function settleScroll(){clearTimeout(settleTimer);settleTimer=null;fastScrolling=false;queueFlight();}
- function onScroll(){
-  if(window.innerWidth<=760){clearTimeout(settleTimer);settleTimer=null;fastScrolling=false;queueFlight();return;}
-  const now=performance.now(),distance=Math.abs(window.scrollY-previousScroll),elapsed=Math.max(16,now-previousScrollTime);
-  previousScroll=window.scrollY;previousScrollTime=now;
-  if(distance>100||distance/elapsed>1.2){
-   if(!fastScrolling&&!droneHidden&&panel.hidden&&!launcher.matches(':hover, :focus-visible')){
-    const size=window.innerWidth<=760?90:140;
-    const box=flightLayer.getBoundingClientRect();
-    const x=document.documentElement.dir==='rtl'?8:window.innerWidth-size-8;
-    const y=Math.min(Math.max(readingTop(),window.innerHeight-size-20),Math.max(readingTop(),box.top));
-    flightLayer.style.transition=canMove()?'transform 600ms ease-out':'none';
-    flightLayer.style.transform=`translate(${x}px,${y}px)`;
-   }
-   fastScrolling=true;
-  }
-  clearTimeout(settleTimer);
-  if(fastScrolling)settleTimer=setTimeout(settleScroll,300);else queueFlight();
- }
- function readingTop(){return Math.max(16,(document.querySelector('.site-header')?.getBoundingClientRect().bottom||70)+12);}
- function scopeVisible(stop){if(stop.detail&&!stop.detail.open)return false;const box=stop.scope.getBoundingClientRect();return box.bottom>readingTop()&&box.top<window.innerHeight-30;}
- function moveTo(context){
-  if(!context||droneHidden||!panel.hidden)return;
-  if(window.innerWidth>760&&launcher.matches(':hover, :focus-visible')&&flightContext)return;
-  flightContext=context;launcher.dataset.context=context.topic;
-  launcher.setAttribute('aria-label',t(context.label));document.getElementById('drone-label').textContent=t(context.label);
-  if(window.innerWidth<=760){launcher.hidden=false;flightLayer.hidden=false;flightLayer.style.transition='none';flightLayer.style.transform='none';return;}
-  const size=window.innerWidth<=760?90:140;
-  const dock=context.dock.getBoundingClientRect();
-  const top=readingTop(),bottom=Math.max(top,window.innerHeight-size-20);
-  const dockOnscreen=dock.top>=top&&dock.bottom<=window.innerHeight-20;
-  // The reading rail is outside the text column, including on narrow screens.
-  const x=document.documentElement.dir==='rtl'?8:window.innerWidth-size-8;
-  const y=Math.min(bottom,Math.max(top,dock.top));
-  const destination=dockOnscreen&&window.innerWidth>760?Math.min(window.innerWidth-size-8,Math.max(8,dock.left)):x;
-  launcher.hidden=false;flightLayer.hidden=false;
-  flightLayer.style.transition=canMove()?'transform 1600ms cubic-bezier(.22,.68,.25,1)':'none';
-  flightLayer.style.transform=`translate(${destination}px,${y}px)`;
- }
+  ['.hero','home'],['#services','services'],['#work','projects'],['#dashboard-title','dashboard'],
+  ['#insurance-project','api'],['#skills-map','skills'],['#notes','projects'],
+  ['#about','about'],['.stack-section','skills'],['#contact','contact']
+ ].map(([selector,topic])=>({element:document.querySelector(selector),topic})).filter(stop=>stop.element);
+ let flightQueued=false,lastCrossAt=performance.now();
  function updateFlight(){
-  flightQueued=false;if(fastScrolling||droneHidden||!panel.hidden)return;
-  if(!canMove())stopFlight();
-  const candidates=stops.filter(scopeVisible);
-  const checkpoint=Math.max(readingTop()+40,window.innerHeight*.3);
-  if(expandedStop&&scopeVisible(expandedStop)){moveTo(expandedStop);return;}
-  expandedStop=null;
-  // Prefer the latest heading already reached; retain its whole chapter between headings.
-  candidates.sort((a,b)=>{
-   const at=a.element.getBoundingClientRect().top,bt=b.element.getBoundingClientRect().top;
-   if(at<=checkpoint&&bt>checkpoint)return -1;
-   if(bt<=checkpoint&&at>checkpoint)return 1;
-   return at<=checkpoint?bt-at:at-bt;
-  });
-  const context=candidates[0]||flightContext||stops[0];
-  if(context)moveTo(context);
+  flightQueued=false;if(droneHidden||!panel.hidden)return;
+  // Preserve the topic while the visitor is interacting with the launcher.
+  if(launcher.matches(':hover, :focus-visible')&&flightContext)return;
+  const checkpoint=Math.max(document.querySelector('.site-header').getBoundingClientRect().bottom+40,innerHeight*.35);
+  const reached=chapters.filter(stop=>stop.element.getBoundingClientRect().top<=checkpoint);
+  flightContext=reached.at(-1)||chapters[0];
+  launcher.dataset.context=flightContext.topic==='home'?'':flightContext.topic;
+  launcher.setAttribute('aria-label',t('Open portfolio guide'));
+  document.getElementById('drone-label').textContent=t('Open portfolio guide');
+  launcher.hidden=false;flightLayer.hidden=false;
+  if(innerWidth<=760){stopFlight();positionY=null;positionX=null;crossing=null;flightSide=null;['top','left','right'].forEach(name=>flightLayer.style.removeProperty(name));return;}
+  const size=flightLayer.offsetHeight;
+  const pageWidth=document.documentElement.clientWidth;
+  const left=12,right=pageWidth-size-12;
+  const initialSide=document.documentElement.dir==='rtl'?'left':'right';
+  const desiredSide=chapters.indexOf(flightContext)%2?(initialSide==='left'?'right':'left'):initialSide;
+  if(positionX===null){flightSide=initialSide;positionX=initialSide==='left'?left:right;}
+  positionX=Math.min(right,Math.max(left,positionX));
+  flightLayer.style.left=`${positionX}px`;flightLayer.style.right='auto';
+  const top=document.querySelector('.site-header').getBoundingClientRect().bottom+20;
+  const bottom=Math.max(top,innerHeight-size-24);
+  const box=flightContext.element.getBoundingClientRect();
+  const progress=Math.min(1,Math.max(0,(checkpoint-box.top)/Math.max(1,box.height)));
+  targetY=Math.min(bottom,Math.max(top,innerHeight*(.28+progress*.4)));
+  if(!crossing&&desiredSide!==flightSide&&performance.now()-lastScrollAt>1000&&performance.now()-lastCrossAt>30000&&canMove()){
+   const lane=findFlightLane(top,bottom,size);
+   if(lane!==null){crossing={side:desiredSide,documentY:lane+scrollY,stage:'lift'};lastCrossAt=performance.now();}
+  }
+  if(!canMove()){stopFlight();crossing=null;positionX=flightSide==='left'?left:right;flightLayer.style.left=`${positionX}px`;positionY=Math.min(bottom,Math.max(top,innerHeight*.65));flightLayer.style.top=`${positionY}px`;return;}
+  if(positionY===null)positionY=targetY;
+  positionY=Math.min(bottom,Math.max(top,positionY));
+  flightLayer.style.top=`${positionY}px`;
+  if(!flightFrame)flightFrame=requestAnimationFrame(fly);
  }
- function queueFlight(){if(!flightQueued){flightQueued=true;window.requestAnimationFrame(updateFlight);}}
- window.addEventListener('scroll',onScroll,{passive:true});window.addEventListener('resize',()=>{stopFlight();settleScroll();});
- window.addEventListener('portfolio-motion-change',()=>{if(!canMove())stopFlight();queueFlight();});motion.addEventListener('change',()=>{stopFlight();queueFlight();});
- document.addEventListener('visibilitychange',()=>{if(document.hidden)stopFlight();queueFlight();});
- launcher.addEventListener('pointerenter',stopFlight);launcher.addEventListener('pointerleave',queueFlight);
- launcher.addEventListener('focus',stopFlight);launcher.addEventListener('blur',queueFlight);
+ // Cross through visible whitespace, rather than parking over readable content.
+ function findFlightLane(top,bottom,size){
+  const occupied=[];
+  const walker=document.createTreeWalker(document.querySelector('main'),NodeFilter.SHOW_TEXT);
+  const range=document.createRange();
+  while(walker.nextNode()){
+   const node=walker.currentNode;if(!node.textContent.trim()||!node.parentElement.checkVisibility())continue;
+   if(node.parentElement.closest('details:not([open])')&&!node.parentElement.closest('summary'))continue;
+   range.selectNodeContents(node);
+   for(const box of range.getClientRects())if(box.width&&box.bottom>top&&box.top<innerHeight)occupied.push([box.top-8,box.bottom+8]);
+  }
+  document.querySelectorAll('main img,main [role=img],main button,main input').forEach(element=>{
+   if(!element.checkVisibility())return;
+   const box=element.getBoundingClientRect();if(box.width&&box.height&&box.bottom>top&&box.top<innerHeight)occupied.push([box.top-8,box.bottom+8]);
+  });
+  occupied.sort((a,b)=>a[0]-b[0]);
+  let cursor=top;const gaps=[];
+  for(const [start,end] of occupied){if(start-cursor>=size+8)gaps.push(cursor+(start-cursor-size)/2);cursor=Math.max(cursor,end);}
+  if(innerHeight-24-cursor>=size+8)gaps.push(cursor+(innerHeight-24-cursor-size)/2);
+  return gaps.filter(y=>y>=top&&y<=bottom).sort((a,b)=>Math.abs(a-positionY)-Math.abs(b-positionY))[0]??null;
+ }
+ function fly(time){
+  flightFrame=0;
+  if(!canMove()||droneHidden||!panel.hidden||launcher.matches(':hover, :focus-visible')){stopFlight();return;}
+  const dt=Math.min(.04,Math.max(0,(time-(lastFlightTime||time))/1000));lastFlightTime=time;
+  let destinationX=flightSide==='left'?12:document.documentElement.clientWidth-flightLayer.offsetWidth-12;
+  let destinationY=targetY;
+  if(crossing){
+   const lane=crossing.documentY-scrollY;
+   const safeTop=document.querySelector('.site-header').getBoundingClientRect().bottom+20;
+   const safeBottom=innerHeight-flightLayer.offsetHeight-24;
+   destinationY=Math.max(safeTop,Math.min(safeBottom,lane));
+   if(crossing.stage==='lift'&&Math.abs(destinationY-positionY)<2)crossing.stage='cross';
+   if(crossing.stage==='cross')destinationX=crossing.side==='left'?12:document.documentElement.clientWidth-flightLayer.offsetWidth-12;
+  }
+  const distance=destinationY-positionY;
+  const step=Math.sign(distance)*Math.min(Math.abs(distance)*(1-Math.exp(-1.5*dt)),65*dt);
+  const dx=destinationX-positionX;
+  const stepX=Math.sign(dx)*Math.min(Math.abs(dx)*(1-Math.exp(-1.3*dt)),90*dt);
+  positionY+=step;
+  positionX+=stepX;
+  flightLayer.style.top=`${positionY}px`;
+  flightLayer.style.left=`${positionX}px`;
+  flightLayer.classList.toggle('is-left',positionX<document.documentElement.clientWidth/2);
+  flightLayer.style.setProperty('--flight-tilt',`${Math.max(-4,Math.min(4,stepX*.4+step*.3))}deg`);
+  if(crossing?.stage==='cross'&&Math.abs(dx)<1){flightSide=crossing.side;crossing=null;}
+  if(crossing||Math.abs(targetY-positionY)>.3||Math.abs(dx)>.3)flightFrame=requestAnimationFrame(fly);else stopFlight();
+ }
+ function queueFlight(){if(!flightQueued){flightQueued=true;requestAnimationFrame(updateFlight);}}
+ window.addEventListener('scroll',()=>{lastScrollAt=performance.now();clearTimeout(scrollSettled);scrollSettled=setTimeout(queueFlight,1100);queueFlight();},{passive:true});
+ window.addEventListener('resize',queueFlight);
+ document.addEventListener('toggle',queueFlight,true);
+ launcher.addEventListener('pointerenter',stopFlight);
+ launcher.addEventListener('focus',stopFlight);
+ launcher.addEventListener('pointerleave',queueFlight);
+ launcher.addEventListener('blur',queueFlight);
+ window.addEventListener('portfolio-motion-change',()=>{stopFlight();queueFlight();});
+ motion.addEventListener('change',()=>{stopFlight();queueFlight();});
+ document.addEventListener('visibilitychange',()=>{stopFlight();if(!document.hidden)queueFlight();});
  root.hidden=false;
  updateFlight();
 })();

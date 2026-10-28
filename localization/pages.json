@@ -1,0 +1,52 @@
+[
+  {
+    "route": "/projects/client-dashboard/",
+    "template": "pages/client-dashboard.en.html",
+    "title": "Modernizing a client back office · Sofia Museichuk",
+    "description": "Legacy SQL, manual changes and a dashboard that needed a clearer workflow.",
+    "features": [
+      "client"
+    ]
+  },
+  {
+    "route": "/projects/insurance-api/",
+    "template": "pages/insurance-api.en.html",
+    "title": "Insurance Management API · Sofia Museichuk",
+    "description": "Business rules and predictable writes in a personal .NET API.",
+    "features": [
+      "insurance"
+    ]
+  },
+  {
+    "route": "/projects/cartograph/",
+    "template": "pages/cartograph.en.html",
+    "title": "Cartograph · Sofia Museichuk",
+    "description": "A developer tool for exploring C#, SQL and Umbraco dependencies before making a change.",
+    "features": [
+      "gallery"
+    ]
+  },
+  {
+    "route": "/projects/life-rpg/",
+    "template": "pages/life-rpg.en.html",
+    "title": "Life RPG · Sofia Museichuk",
+    "description": "A habit-building app with character creation, quests and visible progress.",
+    "features": [
+      "gallery"
+    ]
+  },
+  {
+    "route": "/privacy/",
+    "template": "pages/privacy.en.html",
+    "title": "Privacy policy · Sofia Museichuk",
+    "description": "Draft privacy information about enquiries, cookies and accessibility preferences.",
+    "features": []
+  },
+  {
+    "route": "/accessibility/",
+    "template": "pages/accessibility.en.html",
+    "title": "Accessibility statement · Sofia Museichuk",
+    "description": "Draft accessibility statement describing implemented features and review limitations.",
+    "features": []
+  }
+]

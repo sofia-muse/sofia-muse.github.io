@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://sofia-muse.github.io/sitemap.xml

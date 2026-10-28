@@ -29,7 +29,7 @@
   timers.set(id,ids);
  }
  const descriptions={logic:'The API validates the request, applies business rules and passes a consistent operation to the database.',data:'The database protects records with constraints and version checks. SQL work also supports responsive client workflows.',interface:'The interface makes the workflow understandable. API calls connect user actions to the server and data.'};
- document.getElementById('system-flow-run').addEventListener('click',()=>{flow('system-flow',[0,1,2,3]);document.getElementById('system-flow-caption').textContent=t('A user action travels from the interface through API checks and business rules to the database.');drone('scan');});
+ document.getElementById('system-flow-run')?.addEventListener('click',()=>{flow('system-flow',[0,1,2,3]);document.getElementById('system-flow-caption').textContent=t('A user action travels from the interface through API checks and business rules to the database.');drone('scan');});
  document.querySelectorAll('[data-skill]').forEach(button=>button.addEventListener('click',()=>{flow('system-flow',[0,1,2,3]);document.getElementById('system-flow-caption').textContent=t(descriptions[button.dataset.skill]);drone('scan');}));
  const workflowButtons=[...document.querySelectorAll('[data-workflow]')];
  workflowButtons.forEach(button=>button.addEventListener('click',()=>{
@@ -50,6 +50,6 @@
  document.querySelectorAll('[data-challenge]').forEach(button=>button.addEventListener('click',()=>drone(button.dataset.challenge==='replay'?'happy':'think')));
  document.querySelectorAll('#dashboard-details, #insurance-details').forEach(detail=>detail.addEventListener('toggle',()=>{if(detail.open)drone('scan');}));
  const character=document.getElementById('character-react');
- function halt(){for(const key of new Set([...running.keys(),...timers.keys()]))stop(key);character.classList.remove('show-expression');}
+ function halt(){for(const key of new Set([...running.keys(),...timers.keys()]))stop(key);character?.classList.remove('show-expression');}
  window.addEventListener('portfolio-motion-change',()=>{if(!allowed())halt();});reduce.addEventListener('change',()=>{if(!allowed())halt();});document.addEventListener('visibilitychange',()=>{if(document.hidden)halt();});window.addEventListener('resize',()=>{stop('system-flow');stop('request-flow');});
 })();

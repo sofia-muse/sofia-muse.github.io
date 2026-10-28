@@ -1,0 +1,25 @@
+@layer responsive {
+ .cookie-banner[hidden],.cookie-settings[hidden]{display:none}
+ .cookie-banner{position:fixed;inset-inline:0;bottom:0;z-index:35;background:#101c2c;color:#edf6fa;border-top:1px solid #7b93ac;padding:24px max(var(--page-gutter),calc((100% - var(--page-width))/2));max-height:55dvh;overflow:auto;box-shadow:0 -6px 24px #0004;font:1rem/1.6 var(--sans)}
+ .cookie-banner h2{font-size:1.25rem;line-height:1.4;letter-spacing:-.01em;margin-bottom:8px}
+ .cookie-banner p{font-size:.9375rem;color:#c8d5e3;max-width:90ch}
+ .cookie-actions{display:flex;flex-wrap:wrap;gap:12px;margin-top:16px}
+ .cookie-actions button,.cookie-settings{min-height:44px;border:1px solid #8ca6bf;background:#172b3e;color:#edf6fa;border-radius:6px;padding:10px 16px;font:inherit;line-height:1.5;cursor:pointer}
+ .cookie-actions button:hover,.cookie-settings:hover{background:#25435a;border-color:#80fff6}
+ .cookie-actions [data-cookie-accept],.cookie-actions [data-cookie-reject]{flex:1;max-width:280px}
+ .cookie-banner .cookie-actions [data-cookie-settings]{background:transparent}
+ .cookie-status{font-size:.875rem;color:#fff09a}
+ .cookie-status:empty{display:none}
+ .has-cookie-banner{padding-bottom:var(--cookie-banner-height,240px)}
+ .has-cookie-banner .accessibility-open{bottom:calc(var(--cookie-banner-height,240px) + 12px)}
+ .cookie-dialog label{display:flex;gap:12px;align-items:center;margin:24px 0 8px;min-height:44px;cursor:pointer;font-weight:600}
+ .cookie-dialog input{width:22px;height:22px;flex-shrink:0;accent-color:#52f4ed}
+ .cookie-dialog label+p{margin-inline-start:34px}
+ .cookie-dialog .cookie-retention{margin-top:24px}
+ .site-footer .cookie-settings{background:transparent;font-size:.875rem;border:0;padding:8px 0;text-decoration:underline;text-underline-offset:4px}
+ .footer-bottom{flex-wrap:wrap}
+ .a11y-contrast .cookie-banner{background:#000;color:#fff}
+ .a11y-contrast .cookie-banner p{color:#fff}
+ @media(max-width:760px){.cookie-banner{padding:20px}.cookie-actions{gap:8px}.cookie-actions button{font-size:.875rem;padding:10px 12px}.cookie-actions [data-cookie-settings]{width:100%}.cookie-actions [data-cookie-accept],.cookie-actions [data-cookie-reject]{max-width:none}}
+ @media print{.cookie-banner,.cookie-settings,.cookie-dialog{display:none!important}.has-cookie-banner{padding-bottom:0}}
+}
